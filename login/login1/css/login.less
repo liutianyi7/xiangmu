@@ -1,0 +1,126 @@
+@import url("reset.css");
+.box(@vau:horizontal){
+    display: -webkit-box;
+    -webkit-box-orient: @vau;
+}
+.full(@w,@h,@bg){
+    width: @w;
+    height: @h;
+    background: @bg;
+}
+html,body,.div{
+    .full(100%,100%,none);
+    
+}
+html{
+    font-size: 62.5%;
+}
+.div{
+    .box(vertical);
+    background-image: url(../img/denglu/a1.png);
+    background-size:100%,100%;
+    header{
+        .full(100%,auto,none);
+        dl{
+            .full(100%,17.8rem,none);
+            text-align: center;
+            dt{
+                .full(100%,auto,none);
+                img{
+                    padding-top: 58px;
+                    .full(9rem,auto,none);
+                }
+            }
+            dd{
+                padding-top: 15px;
+                font-size: 16px;
+                font-weight:bold ;
+                
+            }
+        }
+    }
+    section{
+        margin-top: 30px;
+        -webkit-box-flex: 1;
+        .box(vertical);
+        
+        .zhuti1{
+            .full(100%,auto,none);
+            padding-left: 31px;
+            padding-right: 31px;  
+            box-sizing: border-box;
+            ul{
+              .box(horizontal);
+            .li1{
+                .full(3rem,auto,none); 
+                img{
+                   .full(3rem,auto,none); 
+                }
+            }
+            .li2{
+                -webkit-box-flex: 1;
+                padding-left: 9px;
+                padding-top: 10px;
+                box-sizing: border-box;
+                 input{
+                    .full(100%,auto,none);
+                     outline: none;
+                     border: none;
+                     border-bottom: 1px solid #D58512;
+                     font-size: 14px;
+                 }
+            }
+            }
+              ol{
+                  margin-top: 15px;
+              .box(horizontal);
+            .li1{
+                .full(3rem,auto,none); 
+                img{
+                   .full(3rem,auto,none); 
+                }
+            }
+            .li2{
+                -webkit-box-flex: 1;
+                padding-left: 9px;
+                padding-top: 10px;
+                box-sizing: border-box;
+                position: relative;
+                 input{
+                    .full(100%,auto,none);
+                     outline: none;
+                     border: none;
+                     border-bottom: 1px solid #D58512;
+                     font-size: 14px;
+                 }
+                 img{
+                     .full(20px,auto,none);
+                     position: absolute;
+                     top: 5px;
+                     right: 3px;
+                 }
+            }
+            }
+        }
+        .zhuti2{
+            margin-top: 25px;
+            .full(100%,auto,none);
+            padding-left: 12px;
+            padding-right: 12px;  
+            box-sizing: border-box;
+            button{
+                .full(100%,3.5rem,#ff7d1b);
+                border: none;
+                border-radius:5px ;
+            }
+            .left{
+                margin-top: 10px;
+                float: left;
+            }
+            .right{
+                margin-top: 10px;
+                float: right;
+            }
+        }
+    }
+}

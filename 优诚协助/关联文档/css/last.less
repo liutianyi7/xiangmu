@@ -1,0 +1,71 @@
+@import url("reset.css");
+.box(@vau:horizontal){
+    display: -webkit-box;
+    -webkit-box-orient: @vau;
+}
+.full(@w,@h,@bg){
+    width: @w;
+    height: @h;
+    background: @bg;
+}
+html,body,.div{
+    .full(100%,100%,none);
+    
+}
+html{
+    font-size: 62.5%;
+}
+.div{
+    .box(vertical);
+    header{
+        .full(100%,3.7rem,#f7f7f7);
+        position: relative;
+        border-bottom: 2px solid #ADADAD;
+        h2{
+            text-align: center;
+            line-height: 3.7rem;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        span{
+            position: absolute;
+            top: 9px;
+            left: 9px;
+            img{
+                .full(10px,16px,none);
+            }
+        }
+        
+    }
+    section{
+        -webkit-box-flex: 1;
+        background: #f2f2f2;
+        .zhuti1{
+            .full(100%,auto,#ffffff);
+            
+            p{
+                .full(100%,33px,none);
+                padding-top: 10px;
+                padding-left: 10px;
+            box-sizing: border-box;
+            }
+            .p1{
+                border-bottom: 1px solid #5E5E5E;
+            }
+        }
+        .zhuti2{
+            margin-top: 12px;
+            padding-left: 10px;
+            padding-right: 10px;
+            box-sizing: border-box;
+            button{
+                .full(100%,34px,#cccccc);
+                border: none;
+                outline: none;
+                border-radius:5px ;
+                font-size: 16px;
+                color: white;
+            }
+        }
+    }
+}

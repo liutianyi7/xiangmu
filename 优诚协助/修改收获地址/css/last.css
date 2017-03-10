@@ -1,0 +1,84 @@
+@import url("reset.css");
+html,
+body,
+.div {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+html {
+  font-size: 62.5%;
+}
+.div {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.div header {
+  width: 100%;
+  height: 3.7rem;
+  background: #f7f7f7;
+  position: relative;
+  border-bottom: 2px solid #ADADAD;
+}
+.div header h2 {
+  text-align: center;
+  line-height: 3.7rem;
+  font-size: 16px;
+  font-weight: bold;
+}
+.div header span {
+  position: absolute;
+  top: 9px;
+  left: 9px;
+}
+.div header span img {
+  width: 10px;
+  height: 16px;
+  background: none;
+}
+.div section {
+  -webkit-box-flex: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.div section .zhuti1 {
+  width: 100%;
+  height: 104px;
+  background: #f7f7f7;
+  padding-left: 8px;
+  box-sizing: border-box;
+}
+.div section .zhuti1 ul li {
+  width: 100%;
+  height: 25px;
+  background: #f7f7f7;
+}
+.div section .zhuti1 ul .li1 {
+  width: 100%;
+  height: 25px;
+  background: #f7f7f7;
+  position: relative;
+}
+.div section .zhuti1 ul .li1 img {
+  width: 7px;
+  height: auto;
+  background: #f7f7f7;
+  position: absolute;
+  top: 0 ;
+  right: 3px ;
+}
+.div section .zhuti2 {
+  -webkit-box-flex: 1;
+  background: #f2f2f2;
+  padding-left: 8px;
+  padding-right: 8px;
+  box-sizing: border-box;
+}
+.div section .zhuti2 button {
+  width: 100%;
+  height: 25px;
+  background: #ff7f1d;
+  outline: none;
+  border: none;
+  border-radius: 5px ;
+}

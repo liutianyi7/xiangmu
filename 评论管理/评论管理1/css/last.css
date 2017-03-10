@@ -1,0 +1,78 @@
+@import url("reset.css");
+html,
+body,
+.div {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+html {
+  font-size: 62.5%;
+}
+.div {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.div header {
+  width: 100%;
+  height: 3.5rem;
+  background: #f7f7f7;
+  border-bottom: 1px solid #7F7F7F;
+  position: relative;
+}
+.div header .span1 {
+  position: absolute;
+  top: 8px;
+  left: 10px ;
+}
+.div header .span1 img {
+  width: 11px;
+  height: 16px;
+  background: none;
+}
+.div header h2 {
+  text-align: center;
+  line-height: 3.5rem;
+  font-size: 18px;
+}
+.div header .span2 {
+  position: absolute;
+  top: 8px ;
+  right: 11px ;
+}
+.div header .span2 img {
+  width: 18px;
+  height: 18px;
+  background: none;
+}
+.div nav {
+  width: 100%;
+  height: 3.5rem;
+  background: none;
+}
+.div nav ul {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  text-align: center;
+  margin-top: 6px;
+  margin-bottom: 4px;
+}
+.div nav ul li {
+  height: 26px;
+  -webkit-box-flex: 1;
+  border-right: 1px solid #7F7F7F ;
+  font-size: 14px ;
+}
+.div nav ul li img {
+  width: 9px;
+  height: 6px;
+  background: none;
+  padding-left: 3px;
+  box-sizing: border-box;
+}
+.div nav ul .li1 {
+  border-right: none ;
+}
+.div nav ul .li2 {
+  color: #985F0D;
+}
