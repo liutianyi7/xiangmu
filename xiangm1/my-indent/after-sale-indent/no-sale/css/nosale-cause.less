@@ -1,0 +1,76 @@
+@import url(reset.css);
+
+
+//封装宽，高，背景
+.whb(@w,@h,@b){
+    width: @w;
+    height: @h;
+    background: @b;
+}
+
+//body,html,.shop-indent-details{
+//	.whb(100%,100%,none);
+//}
+//封装弹性盒
+.box(@res:vertical){
+    display: -webkit-box;
+    -webkit-box-orient: @res;
+}
+
+.nosale-cause{
+	.whb(100%,100%,none);
+	.box();
+	header{
+	     .whb(100%,40px,#f7f7f7);
+	     .box(horizontal);
+	      border-bottom: 1px solid #cacaca;
+        
+        .left{
+            .whb(43px,43px,none);
+            text-align: center;
+            line-height: 40px;
+            padding-left:5px;
+            padding-top:5px;
+           box-sizing: border-box;
+            img{
+                .whb(10px,15px,none);
+            }
+            
+        }
+        .right{
+            .whb(43px,43px,none);
+            text-align: center;
+            line-height: 40px;
+            padding-right: 10px;
+//           padding-top:5px;
+                box-sizing: border-box;
+                font-size: 14px;
+//          img{
+//              .whb(15px,15px,none);
+//             
+//          }
+            
+        }
+        .center{
+            text-align: center;
+            line-height: 40px;
+            -webkit-box-flex: 1;
+            font-size:14px;
+//          font-weight: bolder;            
+        }
+	}
+	
+	
+	section{
+	    -webkit-box-flex: 1;	
+	    
+	    h2{
+	    	padding: 5px 15px;
+	    }
+	}//section
+	
+	
+	footer{
+//		.whb(100%,40px,#f2f2f2);
+	}
+}

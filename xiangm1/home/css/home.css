@@ -1,0 +1,304 @@
+@import url(reset.css);
+.home {
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.home header {
+  width: 100%;
+  height: 40px;
+  background: #f7f7f7;
+  border-bottom: 1px solid darkgray;
+}
+.home header .head {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.home header .head .left {
+  position: relative;
+}
+.home header .head .left img {
+  width: 15px;
+  height: auto;
+  background: none;
+  position: absolute;
+  left: 10px;
+  top: 12px;
+}
+.home header .head .right {
+  width: 100%;
+  height: 40px;
+  background: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  line-height: 40px;
+}
+.home section {
+  -webkit-box-flex: 1;
+  overflow-y: auto;
+}
+.home section::-webkit-scrollbar {
+  width: 0;
+}
+.home section .one {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.home section .one .name {
+  width: 100%;
+  height: 100px;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 1px solid darkgray;
+}
+.home section .one .name .left {
+  width: 90px;
+  height: auto;
+  background: none;
+}
+.home section .one .name .left dl {
+  text-align: center;
+  padding-top: 25px;
+  box-sizing: border-box;
+}
+.home section .one .name .left dl dt img {
+  width: 50px;
+  height: auto;
+  background: none;
+}
+.home section .one .name .right {
+  -webkit-box-flex: 1;
+  padding: 30px 10px 10px;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.home section .one .name .right .left {
+  width: 1px;
+  height: 50px;
+  background: none;
+}
+.home section .one .name .right .left img {
+  width: 1px;
+  height: 50px;
+  background: none;
+}
+.home section .one .name .right .center {
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.home section .one .name .right .center p {
+  padding-top: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.home section .one .name .right .center p a {
+  color: red;
+}
+.home section .one .name .right .center span {
+  font-size: 14px;
+}
+.home section .one .name .right .center span a {
+  width: 40px;
+  height: 10px;
+  background: #ff0000;
+  color: white;
+  font-size: 12px;
+  margin-left: 5px;
+  border-radius: 3px;
+}
+.home section .one .name .right .right1 {
+  width: 50px;
+  height: auto;
+  background: none;
+  position: relative;
+}
+.home section .one .name .right .right1 img {
+  position: absolute;
+  right: 0px;
+  top: 20px;
+  width: 10px;
+  height: auto;
+  background: none;
+}
+.home section .one .work {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  margin-top: 10px;
+}
+.home section .one .work h2 {
+  color: #ff7813;
+  text-align: center;
+  padding-top: 5px;
+  box-sizing: border-box;
+}
+.home section .one .work ul {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.home section .one .work ul li {
+  -webkit-box-flex: 1;
+  width: 0;
+  border: 1px solid #F2F2F2;
+  border-left: none;
+  border-bottom: none;
+}
+.home section .one .work ul li dl {
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.home section .one .work ul li dl dt {
+  width: 20px;
+  height: auto;
+  background: none;
+  float: left;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+.home section .one .work ul li dl dt img {
+  width: 20px;
+  height: auto;
+  background: none;
+}
+.home section .one .work ul li dl dd {
+  padding-left: 10px;
+  box-sizing: border-box;
+  float: left;
+  font-size: 14px;
+}
+.home section .one .work ul li dl dd p {
+  padding-top: 5px;
+  box-sizing: border-box;
+  font-size: 12px;
+  color: darkgray;
+}
+.home section .one .info {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  margin-top: 5px;
+}
+.home section .one .info .info1 {
+  width: 100%;
+  height: auto;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 1px solid #F2F2F2;
+}
+.home section .one .info .info1 dl {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.home section .one .info .info1 dl dt {
+  width: 20px;
+  height: auto;
+  background: none;
+  float: left;
+}
+.home section .one .info .info1 dl dt img {
+  width: 20px;
+  height: auto;
+  background: none;
+  padding: 5px 10px;
+}
+.home section .one .info .info1 dl dd {
+  float: left;
+  padding: 5px 20px;
+}
+.home section .one .info .info1 span {
+  width: 10px;
+  height: auto;
+  background: none;
+  position: relative;
+}
+.home section .one .info .info1 span img {
+  width: 8px;
+  height: auto;
+  background: none;
+  margin-top: 8px;
+  position: absolute;
+  right: 10px;
+}
+.home section .one .info .info2 {
+  width: 100%;
+  height: auto;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  position: relative;
+}
+.home section .one .info .info2 dl {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.home section .one .info .info2 dl dt {
+  width: 40px;
+  height: auto;
+  background: none;
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.home section .one .info .info2 dl dt img {
+  width: 35px;
+  height: auto;
+  background: none;
+}
+.home section .one .info .info2 dl dd {
+  float: left;
+  padding: 10px 0 0 15px;
+  box-sizing: border-box;
+}
+.home section .one .info .info2 dl dd a {
+  font-size: 14px;
+}
+.home section .one .info .info2 dl dd p {
+  color: #9c9c9c;
+}
+.home section .one .info .info2 span {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  color: #9c9c9c;
+}
+.home footer {
+  width: 100%;
+  height: 45px;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.home footer dl {
+  -webkit-box-flex: 1;
+  text-align: center;
+  width: 0;
+}
+.home footer dl dt {
+  width: auto;
+  height: 20px;
+  background: none;
+  padding-top: 5px;
+}
+.home footer dl dt img {
+  width: 20px;
+  height: auto;
+  background: none;
+}
+.home footer dl dd {
+  padding-top: 2px;
+}
+.home footer dl .three img {
+  width: auto;
+  height: 35px;
+  background: none;
+}

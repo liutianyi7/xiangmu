@@ -1,0 +1,189 @@
+@import url(reset.css);
+.no-sale {
+  width: 100%;
+  height: 100%;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.no-sale header {
+  width: 100%;
+  height: 40px;
+  background: #f7f7f7;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 1px solid #cacaca;
+}
+.no-sale header .left {
+  width: 43px;
+  height: 43px;
+  background: none;
+  text-align: center;
+  line-height: 40px;
+  padding-left: 5px;
+  padding-top: 5px;
+  box-sizing: border-box;
+}
+.no-sale header .left img {
+  width: 10px;
+  height: 15px;
+  background: none;
+}
+.no-sale header .right {
+  width: 43px;
+  height: 43px;
+  background: none;
+  text-align: center;
+  line-height: 40px;
+  padding-right: 5px;
+  padding-top: 5px;
+  box-sizing: border-box;
+}
+.no-sale header .right img {
+  width: 15px;
+  height: 15px;
+  background: none;
+}
+.no-sale header .center {
+  text-align: center;
+  line-height: 40px;
+  -webkit-box-flex: 1;
+  font-size: 14px;
+}
+.no-sale section {
+  -webkit-box-flex: 1;
+  overflow-y: auto;
+}
+.no-sale section::-webkit-scrollbar {
+  width: 0;
+}
+.no-sale section .indent-info {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+.no-sale section .indent-info p {
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.no-sale section .indent-info p a {
+  color: #ff7d1b;
+}
+.no-sale section .buy {
+  width: 100%;
+  height: auto;
+  background: none;
+  border-bottom: 1px solid darkgray;
+}
+.no-sale section .buy h2 {
+  width: 100%;
+  height: auto;
+  background: none;
+  border-bottom: 1px solid darkgrey;
+  font-size: 14px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.no-sale section .buy .top {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.no-sale section .buy .top dl {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.no-sale section .buy .top dl dt {
+  width: 70px;
+  height: auto;
+  background: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.no-sale section .buy .top dl dt img {
+  width: 70px;
+  height: auto;
+  background: none;
+}
+.no-sale section .buy .top dl dd {
+  -webkit-box-flex: 1;
+  padding: 5px 10px 0 20px;
+}
+.no-sale section .buy .top dl dd p {
+  color: darkgray;
+  padding-top: 2px;
+  box-sizing: border-box;
+}
+.no-sale section .buy .top dl dd p b {
+  float: right;
+  color: black;
+}
+.no-sale section .yunfei {
+  width: 100%;
+  height: auto;
+  background: none;
+  border-bottom: 1px solid darkgray;
+  padding: 5px 0;
+}
+.no-sale section .yunfei p {
+  float: right;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+.no-sale section .yunfei a {
+  color: #ff924f;
+}
+.no-sale section .apply-for {
+  border-bottom: 1px solid gainsboro;
+}
+.no-sale section .apply-for h2 {
+  font-size: 14px;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  border-bottom: 1px solid gainsboro;
+}
+.no-sale section .apply-for p {
+  padding-left: 10px;
+  box-sizing: border-box;
+  color: darkgray;
+}
+.no-sale section .apply-for p a {
+  color: #ff924f ;
+}
+.no-sale section .apply-for span img {
+  width: 50px;
+  height: auto;
+  background: none;
+}
+.no-sale section .apply-for span {
+  margin-left: 70px;
+}
+.no-sale section .no-sale {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.no-sale section .no-sale a {
+  width: 60px;
+  height: 20px;
+  background: none;
+  float: right;
+  box-sizing: border-box;
+  color: black;
+  border: 1px solid black;
+  margin-right: 5px;
+  margin-top: 5px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+}
+.no-sale footer {
+  width: 100%;
+  height: 40px;
+  background: #f2f2f2;
+}

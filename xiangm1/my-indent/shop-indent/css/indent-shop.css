@@ -1,0 +1,165 @@
+@import url(reset.css);
+.indent-shop {
+  width: 100%;
+  height: 100%;
+  background: #f3f3f3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.indent-shop header {
+  width: 100%;
+  height: 40px;
+  background: #f7f7f7;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.indent-shop header .left {
+  width: 43px;
+  height: 40px;
+  background: none;
+  text-align: center;
+  line-height: 40px;
+  padding-left: 5px;
+  padding-top: 5px;
+  box-sizing: border-box;
+}
+.indent-shop header .left img {
+  width: 10px;
+  height: 15px;
+  background: none;
+}
+.indent-shop header .right {
+  width: 25px;
+  height: 25px;
+  background: none;
+  text-align: center;
+  line-height: 48px;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+.indent-shop header .right img {
+  width: 15px;
+  height: 15px;
+  background: none;
+}
+.indent-shop header .center {
+  text-align: center;
+  line-height: 48px;
+  -webkit-box-flex: 1;
+}
+.indent-shop header .center span {
+  width: 150px;
+  height: 30px;
+  background: none;
+  border-radius: 3px;
+  margin: 3px;
+  box-sizing: border-box;
+  border: 1px solid #FF8736;
+}
+.indent-shop header .center span a {
+  color: #ff8736;
+}
+.indent-shop header .center span .one {
+  background-color: #fd7e1f;
+  color: white;
+}
+.indent-shop section {
+  -webkit-box-flex: 1;
+}
+.indent-shop section .nav {
+  width: 100%;
+  height: 50px;
+  background: #ffffff;
+  position: relative;
+}
+.indent-shop section .nav .left {
+  width: 100%;
+  height: auto;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.indent-shop section .nav .left dl {
+  -webkit-box-flex: 1;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.indent-shop section .nav .left dl dt {
+  margin-left: 5px;
+}
+.indent-shop section .nav .left dl dd {
+  margin-left: 1px;
+}
+.indent-shop section .nav .left .one {
+  color: #ff7f1e;
+}
+.indent-shop section .nav .img {
+  width: 20px;
+  height: auto;
+  background: none;
+  position: absolute;
+  right: 0px;
+  top: 20px;
+}
+.indent-shop section .nav .img img {
+  width: 15px;
+  height: auto;
+  background: none;
+}
+.indent-shop section .number {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  margin-top: 5px;
+}
+.indent-shop section .number .num {
+  position: relative;
+  border-bottom: 1px solid gainsboro;
+}
+.indent-shop section .number .num h3 {
+  font-size: 14px ;
+  padding-left: 10px;
+  padding-top: 3px;
+  box-sizing: border-box;
+}
+.indent-shop section .number .num a {
+  color: #fe7f20;
+  position: absolute;
+  right: 10px;
+  top: 3px;
+}
+.indent-shop section .number .info p {
+  padding-left: 10px;
+  color: #bdbdbd;
+}
+.indent-shop footer {
+  width: 100%;
+  height: 45px;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.indent-shop footer dl {
+  -webkit-box-flex: 1;
+  text-align: center;
+  width: 0;
+}
+.indent-shop footer dl dt {
+  width: auto;
+  height: 20px;
+  background: none;
+  padding-top: 5px;
+}
+.indent-shop footer dl dt img {
+  width: 20px;
+  height: auto;
+  background: none;
+}
+.indent-shop footer dl dd {
+  padding-top: 2px;
+}
+.indent-shop footer dl .three img {
+  width: auto;
+  height: 35px;
+  background: none;
+}
