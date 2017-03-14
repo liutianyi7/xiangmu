@@ -1,0 +1,211 @@
+@import url(reset.css);
+
+
+//封装宽，高，背景
+.whb(@w,@h,@b){
+    width: @w;
+    height: @h;
+    background: @b;
+}
+
+
+//封装弹性盒
+.box(@res:vertical){
+    display: -webkit-box;
+    -webkit-box-orient: @res;
+}
+
+//body,html{
+//	font-size: 62.5%;
+//}
+.youcheng-indent{
+	.whb(100%,100%,#f3f3f3);
+	.box;
+	
+	header{
+		.whb(100%,4rem,#f7f7f7);
+		.box(horizontal);
+		
+		.left{
+            .whb(43px,4rem,none);
+            text-align: center;
+            line-height: 4rem;
+            padding-left:0.5rem;
+            padding-top:0.5rem;
+           box-sizing: border-box;
+            img{
+                .whb(1rem,1.5rem,none);
+            }
+            
+        }
+        .right{
+	             .whb(2.5rem,2.5rem,none);
+	             text-align: center;
+	             line-height: 4.8rem;
+	             padding-right:1rem;
+	//           padding-top: 10px;
+
+                box-sizing: border-box;
+            img{
+                .whb(1.5rem,1.5rem,none);
+            }
+        }
+        .center{
+            text-align: center;
+            line-height: 4rem;
+            -webkit-box-flex: 1;
+           span{
+           	  .whb(15rem,3rem,none);
+           	  border-radius:0.3rem;
+           	  margin: 0.3rem;
+           	  box-sizing: border-box;
+           	  border: 0.1rem solid #FF8736;
+           	  a{
+           	  	color: #ff8736;
+           	  }
+           	  .one{
+           	  	background-color: #fd7e1f;
+           	  	color: white;
+           	  }
+           }         
+        }
+	}//header
+	
+	
+	
+	
+	section{
+		-webkit-box-flex: 1;
+//		overflow-y: auto;
+		.nav{
+			.whb(100%,4rem,white);
+//			.box(horizontal);
+            position: relative;
+			
+			.left{
+				.whb(100%,auto,none);
+				.box(horizontal);
+//				padding-left: 10px;
+//				border-bottom: 1px solid darkgray;
+				dl{
+					-webkit-box-flex: 1;
+					margin-top: 0.5rem;
+					margin-left: 1rem;
+					dt{
+						margin-left:0.5rem;
+					}
+					dd{
+						margin-left:0.1rem;
+					}
+				}
+				.one{
+				    color: #ff7f1e;
+				}
+			}
+			
+			.img{
+				.whb(2rem,auto,none);
+				position: absolute;
+				right: 0px;
+				top:1.2rem;
+				img{
+					.whb(1rem,auto,none);				}
+			}
+			
+			
+		}//nav
+		
+		
+		.number{
+			.whb(100%,auto,white);
+			margin-top: 0.5rem;
+			.num{
+				position: relative;
+				border-bottom: 0.1rem solid gainsboro;
+				h3{
+					font-size:1.4rem ;
+                    padding-left: 1rem;
+                    padding-top: 0.3rem;
+                    box-sizing: border-box;					
+				}
+				a{
+					color: #fe7f20;
+					position: absolute;
+					right: 1rem;
+					top: 0.3rem;
+				}
+			}
+			
+			
+			.info{
+				
+				p{
+					padding-left: 1rem;
+					color: #bdbdbd;
+				}
+				
+				.left{
+//					-webkit-box-flex: 1;
+					position: relative;
+					padding-top: 10px;
+					
+					a{
+						position: absolute;
+						right:10px;
+						top: 15px;
+						color: #f76566;
+					}
+				}
+				
+//				.right{
+//					.whb(45px,50px,none);
+//					float: right;
+//					
+//					a{
+//						display: block;
+//						text-align: center;
+//						line-height: 50px;
+//						
+//					}
+//				}
+			}
+			
+			
+		}//number
+	}//section
+	
+	
+	
+	
+	
+	footer{
+		.whb(100%,4.2rem,white);
+		.box(horizontal);
+		  dl{
+		    	-webkit-box-flex: 1;
+		    	text-align: center;
+		    	width: 0;
+		    	
+		    	dt{
+		    		.whb(auto,2rem,none);
+		    	    padding-top: 5px;
+		    		img{
+		    			.whb(2rem,auto,none);
+		    		}
+		    	}
+		    	dd{
+		    		padding-top:0.2rem;
+		    	}
+		    	
+		    	.three{
+//		    		.whb(auto,40px,none);
+
+		    		img{
+		    			.whb(auto,3.5rem,none);
+		    		}
+		    	}
+		    	
+		    }
+	}//footer
+	
+}//indent-shop

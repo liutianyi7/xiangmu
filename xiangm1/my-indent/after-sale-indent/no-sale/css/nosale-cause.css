@@ -1,4 +1,9 @@
 @import url(reset.css);
+body,
+html,
+.nosale-cause {
+  overflow: hidden;
+}
 .nosale-cause {
   width: 100%;
   height: 100%;
@@ -47,7 +52,29 @@
 }
 .nosale-cause section {
   -webkit-box-flex: 1;
+  padding: 0px 10px;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
 }
-.nosale-cause section h2 {
-  padding: 5px 15px;
+.nosale-cause section .title h2 {
+  padding: 5px 5px;
+  box-sizing: border-box;
+}
+.nosale-cause section .input textarea {
+  width: 100%;
+  height: 150px;
+  background: #ffffff;
+  border-radius: 5px;
+  outline: none;
+}
+.nosale-cause section .h h2 {
+  padding: 5px 5px;
+  box-sizing: border-box;
+}
+.nosale-cause section .photo img {
+  width: 60px;
+  height: auto;
+  background: none;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
 }

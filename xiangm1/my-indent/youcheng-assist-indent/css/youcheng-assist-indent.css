@@ -1,0 +1,179 @@
+@import url(reset.css);
+.youcheng-assist-indent {
+  width: 100%;
+  height: 100%;
+  background: #ffc0cb;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.youcheng-assist-indent header {
+  width: 100%;
+  height: 4rem;
+  background: #f7f7f7;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 1px solid #cacaca;
+}
+.youcheng-assist-indent header .left {
+  width: 4rem;
+  height: 4rem;
+  background: none;
+  text-align: center;
+  line-height: 4rem;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  box-sizing: border-box;
+}
+.youcheng-assist-indent header .left img {
+  width: 1rem;
+  height: 1.5rem;
+  background: none;
+}
+.youcheng-assist-indent header .right {
+  width: 4rem;
+  height: 4rem;
+  background: none;
+  text-align: center;
+  line-height: 4rem;
+  padding-right: 0.5rem;
+  padding-top: 0.5rem;
+  box-sizing: border-box;
+}
+.youcheng-assist-indent header .right img {
+  width: 1.5rem;
+  height: 1.5rem;
+  background: none;
+}
+.youcheng-assist-indent header .center {
+  text-align: center;
+  line-height: 4rem;
+  -webkit-box-flex: 1;
+  font-size: 1.4rem;
+}
+.youcheng-assist-indent section {
+  -webkit-box-flex: 1;
+  background-color: #f2f2f2;
+  overflow-y: auto;
+}
+.youcheng-assist-indent section::-webkit-scrollbar {
+  width: 0;
+}
+.youcheng-assist-indent section .people {
+  width: 100%;
+  height: 5rem;
+  background: #ffffff;
+  margin-bottom: 1rem;
+}
+.youcheng-assist-indent section .people dl {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+.youcheng-assist-indent section .people dl dt img {
+  width: 1.2rem;
+  height: auto;
+  background: none;
+}
+.youcheng-assist-indent section .people dl dd {
+  padding-left: 0.5rem;
+  box-sizing: border-box;
+}
+.youcheng-assist-indent section .people .one {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  box-sizing: border-box;
+}
+.youcheng-assist-indent section .indent {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  padding: 0 0 0 1rem;
+  box-sizing: border-box;
+}
+.youcheng-assist-indent section .indent p {
+  padding: 1rem 1rem 1rem 0;
+  box-sizing: border-box;
+  border-bottom: 0.1rem solid gainsboro;
+}
+.youcheng-assist-indent section .indent dl {
+  border-bottom: 1px solid gainsboro;
+}
+.youcheng-assist-indent section .indent dl dt img {
+  width: 6rem;
+  height: auto;
+  background: none;
+  margin: 1rem 1rem 1rem 0;
+}
+.youcheng-assist-indent section .num {
+  position: relative;
+}
+.youcheng-assist-indent section .num h3 {
+  color: #CACACA;
+  padding-top: 0.3rem;
+  box-sizing: border-box;
+}
+.youcheng-assist-indent section .num a {
+  color: #CACACA;
+  position: absolute;
+  right: 1rem;
+  top: 0.3rem;
+}
+.youcheng-assist-indent section .all {
+  position: relative;
+}
+.youcheng-assist-indent section .all h3 {
+  color: #fe7f20;
+  padding-top: 0.3rem;
+  box-sizing: border-box;
+}
+.youcheng-assist-indent section .all a {
+  color: #fe7f20;
+  position: absolute;
+  right: 1rem;
+  top: 0.3rem;
+}
+.youcheng-assist-indent footer {
+  width: 100%;
+  height: 5rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.youcheng-assist-indent footer .left {
+  width: 50%;
+  height: 5rem;
+  background: none;
+}
+.youcheng-assist-indent footer .left h3 {
+  padding-left: 0.5rem;
+  padding-top: 0.2rem;
+  font-size: 1.4rem;
+}
+.youcheng-assist-indent footer .left p {
+  padding-left: 0.5rem;
+}
+.youcheng-assist-indent footer .left p a {
+  color: #fd7d1a;
+}
+.youcheng-assist-indent footer .right {
+  width: 50%;
+  height: 5rem;
+  background: none;
+}
+.youcheng-assist-indent footer .right a {
+  width: 45%;
+  height: 2.5rem;
+  background: none;
+  float: right;
+  box-sizing: border-box;
+  color: #fd7d1a;
+  border: 1px solid #fd7d1a;
+  margin-right: 0.5rem;
+  margin-top: 1.5rem;
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+}

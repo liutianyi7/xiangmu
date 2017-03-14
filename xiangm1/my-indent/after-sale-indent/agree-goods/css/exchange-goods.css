@@ -1,0 +1,194 @@
+@import url(reset.css);
+.exchange-goods {
+  width: 100%;
+  height: 100%;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.exchange-goods header {
+  width: 100%;
+  height: 40px;
+  background: #f7f7f7;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 1px solid #cacaca;
+}
+.exchange-goods header .left {
+  width: 43px;
+  height: 43px;
+  background: none;
+  text-align: center;
+  line-height: 40px;
+  padding-left: 5px;
+  padding-top: 5px;
+  box-sizing: border-box;
+}
+.exchange-goods header .left img {
+  width: 10px;
+  height: 15px;
+  background: none;
+}
+.exchange-goods header .right {
+  width: 43px;
+  height: 43px;
+  background: none;
+  text-align: center;
+  line-height: 40px;
+  padding-right: 5px;
+  padding-top: 5px;
+  box-sizing: border-box;
+}
+.exchange-goods header .right img {
+  width: 15px;
+  height: 15px;
+  background: none;
+}
+.exchange-goods header .center {
+  text-align: center;
+  line-height: 40px;
+  -webkit-box-flex: 1;
+  font-size: 14px;
+}
+.exchange-goods section {
+  -webkit-box-flex: 1;
+  overflow-y: auto;
+}
+.exchange-goods section::-webkit-scrollbar {
+  width: 0;
+}
+.exchange-goods section .indent-info {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+.exchange-goods section .indent-info p {
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.exchange-goods section .indent-info p a {
+  color: #ff7d1b;
+}
+.exchange-goods section .buy {
+  width: 100%;
+  height: auto;
+  background: none;
+  border-bottom: 1px solid darkgray;
+}
+.exchange-goods section .buy h2 {
+  width: 100%;
+  height: auto;
+  background: none;
+  border-bottom: 1px solid darkgrey;
+  font-size: 14px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.exchange-goods section .buy .top {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.exchange-goods section .buy .top dl {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.exchange-goods section .buy .top dl dt {
+  width: 70px;
+  height: auto;
+  background: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.exchange-goods section .buy .top dl dt img {
+  width: 70px;
+  height: auto;
+  background: none;
+}
+.exchange-goods section .buy .top dl dd {
+  -webkit-box-flex: 1;
+  padding: 5px 10px 0 20px;
+}
+.exchange-goods section .buy .top dl dd p {
+  color: darkgray;
+  padding-top: 2px;
+  box-sizing: border-box;
+}
+.exchange-goods section .buy .top dl dd p b {
+  float: right;
+  color: black;
+}
+.exchange-goods section .yunfei {
+  width: 100%;
+  height: auto;
+  background: none;
+  border-bottom: 1px solid darkgray;
+  padding: 5px 0;
+}
+.exchange-goods section .yunfei p {
+  float: right;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+.exchange-goods section .yunfei a {
+  color: #ff924f;
+}
+.exchange-goods section .apply-for {
+  border-bottom: 1px solid gainsboro;
+}
+.exchange-goods section .apply-for h2 {
+  font-size: 14px;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  border-bottom: 1px solid gainsboro;
+}
+.exchange-goods section .apply-for p {
+  padding-left: 10px;
+  box-sizing: border-box;
+  color: darkgray;
+}
+.exchange-goods section .apply-for p a {
+  color: #ff924f ;
+}
+.exchange-goods section .apply-for span img {
+  width: 10px;
+  height: auto;
+  background: none;
+  margin-top: 15px;
+  margin-right: 5px;
+}
+.exchange-goods section .apply-for span a {
+  color: #ff7e19;
+}
+.exchange-goods section .apply-for span {
+  margin-left: 10px;
+}
+.exchange-goods section .no-sale {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.exchange-goods section .no-sale a {
+  width: auto;
+  height: 20px;
+  background: none;
+  float: right;
+  box-sizing: border-box;
+  color: #ff7e19;
+  border: 1px solid  #ff7e19;
+  margin-right: 5px;
+  margin-top: 5px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+}
+.exchange-goods footer {
+  width: 100%;
+  height: 40px;
+  background: #f2f2f2;
+}

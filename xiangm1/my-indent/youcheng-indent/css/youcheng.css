@@ -1,0 +1,175 @@
+@import url(reset.css);
+.youcheng-indent {
+  width: 100%;
+  height: 100%;
+  background: #f3f3f3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.youcheng-indent header {
+  width: 100%;
+  height: 4rem;
+  background: #f7f7f7;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.youcheng-indent header .left {
+  width: 43px;
+  height: 4rem;
+  background: none;
+  text-align: center;
+  line-height: 4rem;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  box-sizing: border-box;
+}
+.youcheng-indent header .left img {
+  width: 1rem;
+  height: 1.5rem;
+  background: none;
+}
+.youcheng-indent header .right {
+  width: 2.5rem;
+  height: 2.5rem;
+  background: none;
+  text-align: center;
+  line-height: 4.8rem;
+  padding-right: 1rem;
+  box-sizing: border-box;
+}
+.youcheng-indent header .right img {
+  width: 1.5rem;
+  height: 1.5rem;
+  background: none;
+}
+.youcheng-indent header .center {
+  text-align: center;
+  line-height: 4rem;
+  -webkit-box-flex: 1;
+}
+.youcheng-indent header .center span {
+  width: 15rem;
+  height: 3rem;
+  background: none;
+  border-radius: 0.3rem;
+  margin: 0.3rem;
+  box-sizing: border-box;
+  border: 0.1rem solid #FF8736;
+}
+.youcheng-indent header .center span a {
+  color: #ff8736;
+}
+.youcheng-indent header .center span .one {
+  background-color: #fd7e1f;
+  color: white;
+}
+.youcheng-indent section {
+  -webkit-box-flex: 1;
+}
+.youcheng-indent section .nav {
+  width: 100%;
+  height: 4rem;
+  background: #ffffff;
+  position: relative;
+}
+.youcheng-indent section .nav .left {
+  width: 100%;
+  height: auto;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.youcheng-indent section .nav .left dl {
+  -webkit-box-flex: 1;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}
+.youcheng-indent section .nav .left dl dt {
+  margin-left: 0.5rem;
+}
+.youcheng-indent section .nav .left dl dd {
+  margin-left: 0.1rem;
+}
+.youcheng-indent section .nav .left .one {
+  color: #ff7f1e;
+}
+.youcheng-indent section .nav .img {
+  width: 2rem;
+  height: auto;
+  background: none;
+  position: absolute;
+  right: 0px;
+  top: 1.2rem;
+}
+.youcheng-indent section .nav .img img {
+  width: 1rem;
+  height: auto;
+  background: none;
+}
+.youcheng-indent section .number {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  margin-top: 0.5rem;
+}
+.youcheng-indent section .number .num {
+  position: relative;
+  border-bottom: 0.1rem solid gainsboro;
+}
+.youcheng-indent section .number .num h3 {
+  font-size: 1.4rem ;
+  padding-left: 1rem;
+  padding-top: 0.3rem;
+  box-sizing: border-box;
+}
+.youcheng-indent section .number .num a {
+  color: #fe7f20;
+  position: absolute;
+  right: 1rem;
+  top: 0.3rem;
+}
+.youcheng-indent section .number .info p {
+  padding-left: 1rem;
+  color: #bdbdbd;
+}
+.youcheng-indent section .number .info .left {
+  position: relative;
+  padding-top: 10px;
+}
+.youcheng-indent section .number .info .left a {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  color: #f76566;
+}
+.youcheng-indent footer {
+  width: 100%;
+  height: 4.2rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.youcheng-indent footer dl {
+  -webkit-box-flex: 1;
+  text-align: center;
+  width: 0;
+}
+.youcheng-indent footer dl dt {
+  width: auto;
+  height: 2rem;
+  background: none;
+  padding-top: 5px;
+}
+.youcheng-indent footer dl dt img {
+  width: 2rem;
+  height: auto;
+  background: none;
+}
+.youcheng-indent footer dl dd {
+  padding-top: 0.2rem;
+}
+.youcheng-indent footer dl .three img {
+  width: auto;
+  height: 3.5rem;
+  background: none;
+}

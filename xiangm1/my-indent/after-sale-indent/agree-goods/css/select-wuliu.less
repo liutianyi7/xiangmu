@@ -1,0 +1,104 @@
+@import url(reset.css);
+
+
+//封装宽，高，背景
+.whb(@w,@h,@b){
+    width: @w;
+    height: @h;
+    background: @b;
+}
+
+body{
+	font-size: 62.5%;
+}
+//封装弹性盒
+.box(@res:vertical){
+    display: -webkit-box;
+    -webkit-box-orient: @res;
+}
+
+.select-wuliu{
+	.whb(100%,100%,none);
+	.box();
+	header{
+	     .whb(100%,4rem,#f7f7f7);
+	     .box(horizontal);
+	      border-bottom: 0.1rem solid #cacaca;
+        
+        .left{
+            .whb(4.3rem,4.3rem,none);
+            text-align: center;
+            line-height: 4rem;
+            padding-left:0.5rem;
+            padding-top:0.5rem;
+           box-sizing: border-box;
+            img{
+                .whb(1rem,1.5rem,none);
+            }
+            
+        }
+        .right{
+            .whb(4.3rem,4.3rem,none);
+            text-align: center;
+            line-height: 4rem;
+            padding-right: 0.5rem;
+            font-size: 1.4rem;
+//          font-weight:500;
+//           padding-top:5px;
+                box-sizing: border-box;
+            img{
+                .whb(1.5rm,1.5rem,none);
+               
+            }
+        }
+        .center{
+            text-align: center;
+            line-height: 4rem;
+            -webkit-box-flex: 1;
+            font-size:1.4rem;
+//          font-weight: bolder;            
+        }
+	}
+	
+	
+	section{
+          -webkit-box-flex: 1;
+          background-color: #f2f2f2;
+          .title{
+          	.whb(100%,3rem,white);
+          	margin: 0.5rem 0;
+          	h2{
+          		line-height: 3rem;
+          		padding-left: 1rem;
+          		box-sizing: border-box;
+          	}
+          	
+          }
+          
+          	ul h3{
+          		line-height: 3rem;
+          		padding-left: 1rem;
+          		border-bottom: 0.1rem solid gainsboro;
+          		
+          		img{
+          			.whb(1rem,auto,none);
+          			float: right;
+          			margin-right: 1rem;
+          			margin-top: 1rem;
+          		}
+          	}
+          	ul li{
+          		   padding: 0.3rem 0 0.3rem 1.5rem;
+          			border-bottom: 0.1rem solid gainsboro;
+          	}
+          	ul{
+          		background-color: white;
+          	}
+          	
+	}//section
+	
+	
+	footer{
+		.whb(100%,4rem,#f2f2f2);
+	}
+}

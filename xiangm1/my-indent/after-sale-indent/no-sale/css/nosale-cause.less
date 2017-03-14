@@ -17,6 +17,10 @@
     -webkit-box-orient: @res;
 }
 
+body,html,.nosale-cause{
+	overflow: hidden;
+}
+
 .nosale-cause{
 	.whb(100%,100%,none);
 	.box();
@@ -45,10 +49,7 @@
 //           padding-top:5px;
                 box-sizing: border-box;
                 font-size: 14px;
-//          img{
-//              .whb(15px,15px,none);
-//             
-//          }
+
             
         }
         .center{
@@ -63,10 +64,33 @@
 	
 	section{
 	    -webkit-box-flex: 1;	
-	    
-	    h2{
-	    	padding: 5px 15px;
+	    padding:0px 10px;
+	    box-sizing: border-box;
+	    background-color: #f2f2f2;
+	    .title h2{
+	    	padding: 5px 5px;
+	    	box-sizing: border-box;
 	    }
+	    
+	    .input textarea{
+	    	.whb(100%,150px,white);
+	    	border-radius: 5px;
+	    	outline:none;
+	    }
+	    
+	    
+	    .h h2{
+	    	padding: 5px 5px;
+	    	box-sizing: border-box;
+	    }
+	    .photo{
+	    	img{
+	    		.whb(60px,auto,none);
+	    		border: 1px solid gainsboro;
+	    		border-radius: 5px;
+	    	}
+	    }
+	    
 	}//section
 	
 	
