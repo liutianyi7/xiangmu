@@ -1,0 +1,111 @@
+@import url(reset.css);
+
+
+//封装宽，高，背景
+.whb(@w,@h,@b){
+    width: @w;
+    height: @h;
+    background: @b;
+}
+
+
+//封装弹性盒
+.box(@res:vertical){
+    display: -webkit-box;
+    -webkit-box-orient: @res;
+}
+
+
+.genghuan{
+	.whb(100%,100%,#f2f2f2);
+	.box();
+
+     header{
+	     .whb(100%,3.5rem,#f7f7f7);
+	     .box(horizontal);
+	      border-bottom: 0.1rem solid #cacaca;
+          position: relative;
+        
+        .left{
+            .whb(1rem,auto,none);
+            text-align: center;
+            line-height: 3.5rem;
+            padding-left:0.5rem;
+            padding-top:0.3rem;
+           box-sizing: border-box;
+           position: absolute;
+           left: 0.5rem;
+            img{
+                .whb(0.8rem,auto,none);
+            }
+            
+        }
+        .right{
+            .whb(auto,3.5rem,none);
+            text-align: center;
+            line-height: 3.5rem;
+            padding-right: 0.5rem;
+            font-size: 1.4rem;
+            box-sizing: border-box;
+            position: absolute;
+            right: 0.5rem;
+              a{
+              	padding-left: 0.5rem;
+              }
+        }
+        .center{
+            text-align: center;
+            line-height: 3.5rem;
+            .whb(100%,auto,none);
+            font-size:1.4rem; 
+         
+        }
+	}
+	
+	
+	
+	section{
+		-webkit-box-flex: 1;
+		overflow: hidden;
+		overflow-y: auto;
+		&::-webkit-scrollbar{
+			width: 0;
+		}
+	   .bgimg{
+	   	  .whb(100%,auto,white);
+	   	  margin-top: 0.5rem;
+	   	  .title h3{
+	   	  	padding: 0.5rem;
+	   	  	box-sizing: border-box;
+	   	  }
+	   	  img{
+	   	  	.whb(135%,auto,none);
+	   	  }
+	   }
+	   
+	   
+	   .lunbo{
+	   	  .whb(100%,auto,white);
+	   	  margin-top: 0.5rem;
+	   	  .title h3{
+	   	  	padding: 0.5rem;
+	   	  	box-sizing: border-box;
+	   	  }
+	   	  img{
+	   	  	.whb(100%,auto,none);
+	   	  }
+	   	  
+	   	  h3{
+	   	  	padding-left: 0.2rem;
+	   	  	box-sizing: border-box;
+	   	  }
+	   }
+	}
+	
+	
+	
+	footer{
+		
+	}
+	
+}//zhuangxiu

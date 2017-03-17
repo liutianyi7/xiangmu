@@ -1,0 +1,60 @@
+@import url(reset.css);
+.serve {
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.serve header {
+  width: 100%;
+  height: 3.5rem;
+  background: #f2f2f2;
+  border-bottom: 1px solid darkgray;
+}
+.serve header .head {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.serve header .head .left {
+  position: relative;
+}
+.serve header .head .left img {
+  width: 0.7rem;
+  height: auto;
+  background: none;
+  position: absolute;
+  left: 1rem;
+  top: 1.1rem;
+}
+.serve header .head .right {
+  width: 100%;
+  height: 4rem;
+  background: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  line-height: 3.5rem;
+}
+.serve section {
+  -webkit-box-flex: 1;
+}
+.serve section ul li {
+  line-height: 3rem;
+  padding-left: 1rem;
+  box-sizing: border-box;
+  border-bottom: 0.1rem solid gainsboro;
+}
+.serve section ul li img {
+  width: 0.7rem;
+  height: auto;
+  background: none;
+  float: right;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+.serve section ul {
+  background-color: white;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,84 @@
+@import url(reset.css);
+.guanlian-word {
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.guanlian-word header {
+  width: 100%;
+  height: 3.5rem;
+  background: #f2f2f2;
+  border-bottom: 1px solid darkgray;
+}
+.guanlian-word header .head {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.guanlian-word header .head .left {
+  position: relative;
+}
+.guanlian-word header .head .left img {
+  width: 0.7rem;
+  height: auto;
+  background: none;
+  position: absolute;
+  left: 1rem;
+  top: 1.2rem;
+}
+.guanlian-word header .head .right {
+  width: 100%;
+  height: 4rem;
+  background: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  line-height: 3.5rem;
+}
+.guanlian-word section {
+  -webkit-box-flex: 1;
+  background-color: #f2f2f2 ;
+}
+.guanlian-word section .photo {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.guanlian-word section .photo ul li {
+  line-height: 3rem;
+  padding-left: 1rem;
+  box-sizing: border-box;
+  border-bottom: 0.1rem solid gainsboro;
+}
+.guanlian-word section .photo ul li img {
+  width: 1.5rem;
+  height: auto;
+  background: none;
+  float: right;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+.guanlian-word section .photo ul {
+  background-color: white;
+  margin-bottom: 0.3rem;
+}
+.guanlian-word section .upload {
+  width: 100%;
+  height: auto;
+  background: none;
+  padding: 0 0.5rem;
+  box-sizing: border-box;
+}
+.guanlian-word section .upload span {
+  width: 100%;
+  height: auto;
+  background: #dbdbdb;
+  border-radius: 0.3rem;
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  line-height: 2.5rem;
+}

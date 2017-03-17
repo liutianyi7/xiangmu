@@ -1,0 +1,86 @@
+@import url(reset.css);
+.my-production {
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.my-production header {
+  width: 100%;
+  height: 3.5rem;
+  background: #f2f2f2;
+  border-bottom: 1px solid darkgray;
+}
+.my-production header .head {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.my-production header .head .left {
+  position: relative;
+}
+.my-production header .head .left img {
+  width: 0.7rem;
+  height: auto;
+  background: none;
+  position: absolute;
+  left: 1rem;
+  top: 1.1rem;
+}
+.my-production header .head .right {
+  width: 100%;
+  height: 4rem;
+  background: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  line-height: 3.5rem;
+}
+.my-production section {
+  -webkit-box-flex: 1;
+}
+.my-production section .photo {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.my-production section .photo ul li {
+  line-height: 3rem;
+  padding-left: 1rem;
+  box-sizing: border-box;
+  border-bottom: 0.1rem solid gainsboro;
+}
+.my-production section .photo ul li img {
+  width: 1.5rem;
+  height: auto;
+  background: none;
+  float: right;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+.my-production section .photo ul {
+  background-color: white;
+  margin-bottom: 1rem;
+}
+.my-production section h3 {
+  padding: 0 0.5rem;
+  color: #A9A9A9;
+  box-sizing: border-box;
+}
+.my-production section p {
+  color: #A9A9A9;
+}
+.my-production section .upload {
+  width: 100%;
+  height: auto;
+  background: #ff7813;
+  margin-top: 2rem;
+  border-radius: 0.3rem;
+}
+.my-production section .upload span {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+}

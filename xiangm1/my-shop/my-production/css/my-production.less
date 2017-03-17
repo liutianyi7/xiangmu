@@ -1,0 +1,105 @@
+@import url(reset.css);
+
+
+//封装宽，高，背景
+.whb(@w,@h,@b){
+    width: @w;
+    height: @h;
+    background: @b;
+}
+
+
+//封装弹性盒
+.box(@res:vertical){
+    display: -webkit-box;
+    -webkit-box-orient: @res;
+}
+
+
+.my-production{
+	.whb(100%,100%,#f2f2f2);
+	.box();
+	
+	
+	header{
+		.whb(100%,3.5rem,#f2f2f2);
+		border-bottom: 1px solid darkgray;
+		.head{
+			.box(horizontal);
+			
+			.left{
+				position: relative;
+				img{
+					.whb(0.7rem,auto,none);
+					position: absolute;
+					left: 1rem;
+					top:1.1rem;
+			   }
+			}
+			.right{
+			     .whb(100%,4rem,none);
+				  font-size: 14px;
+		           font-weight: bold;
+		           color: black;
+		           text-align: center;
+		           line-height: 3.5rem;
+			
+			}
+			
+		}
+	}
+
+
+   section{
+   	   -webkit-box-flex: 1;
+   	   
+		   	   .photo{
+		   	   	.whb(100%,auto,none);
+		   	   	ul li{
+		          		line-height: 3rem;
+		          		padding-left: 1rem;
+		          		box-sizing: border-box;
+		          		border-bottom: 0.1rem solid gainsboro;
+		          		
+		          		img{
+		          			.whb(1.5rem,auto,none);
+		          			float: right;
+		          			margin-right: 1rem;
+		          			margin-top: 1rem;
+		          		}
+		          }
+		          	ul{
+		          		background-color: white;
+		          		margin-bottom: 1rem;
+		          	}
+		}//photo
+		
+	    h3{
+	    	padding: 0 0.5rem;
+	    	color: #A9A9A9;
+	    	box-sizing: border-box;
+	    }
+	    p{
+	    	color: #A9A9A9;
+	    }
+	    
+	    .upload{
+	    	.whb(100%,auto,#ff7813);
+	    	margin-top: 2rem;
+	    	border-radius:0.3rem;
+	    	span{
+	    		display: block;
+	    		text-align: center;
+	    		font-size: 16px;
+	    		color: white;
+	    	}
+	    }	
+	
+   }
+   
+   
+   footer{
+   	
+   }
+	
+}
