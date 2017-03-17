@@ -1,0 +1,85 @@
+@import url("reset.css");
+html,
+body,
+.div {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+html {
+  font-size: 62.5%;
+}
+.div {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.div header {
+  width: 100%;
+  height: 3.5rem;
+  background: #f7f7f7;
+  border-bottom: 3px solid #f2f2f2;
+  position: relative;
+}
+.div header .span1 {
+  position: absolute;
+  top: 8px;
+  left: 10px ;
+}
+.div header .span1 img {
+  width: 11px;
+  height: 16px;
+  background: none;
+}
+.div header h2 {
+  text-align: center;
+  line-height: 3.5rem;
+  font-size: 18px;
+}
+.div header .span2 {
+  position: absolute;
+  top: 8px ;
+  right: 11px ;
+}
+.div header .span2 img {
+  width: 18px;
+  height: 18px;
+  background: none;
+}
+.div section {
+  -webkit-box-flex: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.div section .zhuti1 {
+  width: 100%;
+  height: 3.8rem;
+  background: none;
+  padding-left: 11px ;
+  padding-right: 11px ;
+  box-sizing: border-box;
+}
+.div section .zhuti1 p {
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 11px;
+}
+.div section .zhuti2 {
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+  -webkit-box-flex: 1;
+  padding-left: 11px ;
+  padding-right: 11px ;
+  box-sizing: border-box;
+}
+.div section .zhuti2 button {
+  margin-top: 23px;
+  width: 100%;
+  height: 3.1rem;
+  background: #ff7f1d;
+  font-size: 18px;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  border-radius: 5px ;
+}

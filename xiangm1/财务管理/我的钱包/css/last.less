@@ -1,0 +1,183 @@
+@import url("reset.css");
+.box(@vau:horizontal){
+    display: -webkit-box;
+    -webkit-box-orient: @vau;
+}
+.full(@w,@h,@bg){
+    width: @w;
+    height: @h;
+    background: @bg;
+}
+html,body,.div{
+    .full(100%,100%,none);
+    
+}
+html{
+    font-size: 62.5%;
+}
+.div{
+    .box(vertical);
+     header{
+        .full(100%,3.5rem,#ff7f1d);
+//      border-bottom: 3px solid #f2f2f2;
+        position: relative;
+        .span1{
+            position: absolute;
+            top: 8px;
+            left:10px ;
+            img{
+                .full(11px,16px,none)
+            }
+        }
+        h2{
+            text-align: center;
+            line-height: 3.5rem;
+            font-size: 18px;
+        }
+        .span2{
+             position: absolute;
+            top:8px ;
+            right:11px ;
+            img{
+                .full(18px,18px,none);
+            }
+        }
+    }
+    section{
+        overflow-y: auto;
+        &::-webkit-scrollbar{
+            width: 0;
+        }
+        -webkit-box-flex: 1;
+        .box(vertical);
+        .zhuti1{
+            .full(100%,17rem,none);
+            position: relative;
+            .span1{
+                display: block;
+                .full(5rem,2rem,none);
+                position: absolute;
+                top:12px ;
+                right:14px ;
+                border: 1px solid #ff7f1d;
+                border-radius:5px ;
+                text-align: center;
+                line-height: 2rem;
+                color:#ff7f1d ;
+            }
+            .p1{
+                margin-top: 37px;
+                font-size: 14px;
+                text-align: center;
+            }
+            .p2{
+                margin-top: 8px;
+//              font-size: 12px;
+                text-align: center;
+                color: #ff7f1d;
+            }
+            .p3{
+                text-align: center;
+                margin-top: 6px;
+            }
+            .span2{
+                display: block;
+                .full(68px,26px,#ff7f1d);
+                position: absolute;
+                top:132px ;
+                left:66px ;
+                color: white;
+                border: 1px solid #ff7f1d;
+                border-radius:5px ;
+                text-align: center;
+                line-height: 26px;
+            }
+            .span3{
+                display: block;
+                .full(68px,26px,none);
+                position: absolute;
+                top:132px ;
+                right:66px ;
+                color: #ff7f1d;
+                border: 1px solid #ff7f1d;
+                border-radius:5px ;
+                text-align: center;
+                line-height: 26px;
+            }
+        }
+        .zhuti2{
+             .full(100%,3.3rem,none);
+        border-bottom: 3px solid #f2f2f2;
+        border-top: 3px solid #f2f2f2;
+        position: relative;
+        .span1{
+            position: absolute;
+            top: 12px;
+            left:10px ;
+            img{
+                .full(13px,13px,none)
+            }
+        }
+        h2{
+            padding-left: 30px;
+            box-sizing: border-box;
+            line-height: 3.5rem;
+            font-size: 16px;
+            font-weight:bold ;
+        }
+        .span2{
+             position: absolute;
+            top:12px ;
+            right:11px ;
+            img{
+                .full(6px,12px,none);
+            }
+        }
+        }
+        .zhuti3{
+            .full(100%,26px,none);
+            padding-left: 9px;
+            box-sizing: border-box;
+            font-size: 16px;
+            font-weight: bold;
+            h2{
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 26px;
+            }
+        }
+        .zhuti4{
+            .full(100%,5.6rem,none);
+            padding-left: 10px;
+            padding-right: 10px;
+            box-sizing: border-box;
+            border-top: 1px solid #f1f1f1;
+                .zhuti4_1{
+                 .box(horizontal);
+                position: relative;
+                      .left{
+                    position: absolute;
+                    top: 7px;
+                    left: 0;
+                    p{
+                        margin-top: 5px;
+                    }
+                }
+                .right{
+                    position: absolute;
+                    top:7px ;
+                    right:0 ;
+                    p{
+                        margin-top: 5px;
+                    }
+                   .span5{
+                    position: absolute;
+                    top:24px ;
+                    right:0 ;
+                   }
+                }
+                }
+              
+        }
+    }
+}

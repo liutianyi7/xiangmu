@@ -1,0 +1,68 @@
+@import url("reset.css");
+html,
+body,
+.div {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+html {
+  font-size: 62.5%;
+}
+.div {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.div header {
+  width: 100%;
+  height: 3.5rem;
+  background: #f7f7f7;
+  position: relative;
+}
+.div header .span1 {
+  position: absolute;
+  top: 8px;
+  left: 10px ;
+}
+.div header .span1 img {
+  width: 11px;
+  height: 16px;
+  background: none;
+}
+.div header h2 {
+  text-align: center;
+  line-height: 3.5rem;
+  font-size: 18px;
+}
+.div header .span2 {
+  position: absolute;
+  top: 8px ;
+  right: 11px ;
+}
+.div header .span2 img {
+  width: 18px;
+  height: 18px;
+  background: none;
+}
+.div section {
+  -webkit-box-flex: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  background: #f2f2f2;
+}
+.div section p {
+  width: 100%;
+  height: 4.1rem;
+  background: #ffffff;
+  padding-left: 11px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  line-height: 4.1rem ;
+}
+.div section h2 {
+  -webkit-box-flex: 1;
+  padding-left: 11px;
+  box-sizing: border-box;
+  padding-top: 5px;
+  color: #D2691E;
+}

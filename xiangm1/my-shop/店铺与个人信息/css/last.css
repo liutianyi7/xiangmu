@@ -1,0 +1,169 @@
+@import url("reset.css");
+html,
+body,
+.div {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+html {
+  font-size: 62.5%;
+}
+.div {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.div header {
+  width: 100%;
+  height: 3.5rem;
+  background: #f7f7f7;
+  position: relative;
+}
+.div header .span1 {
+  position: absolute;
+  top: 8px;
+  left: 10px ;
+}
+.div header .span1 img {
+  width: 11px;
+  height: 16px;
+  background: none;
+}
+.div header h2 {
+  text-align: center;
+  line-height: 3.5rem;
+  font-size: 18px;
+}
+.div header .span2 {
+  position: absolute;
+  top: 8px ;
+  right: 11px ;
+}
+.div header .span2 img {
+  width: 18px;
+  height: 18px;
+  background: none;
+}
+.div section {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-flex: 1;
+}
+.div section .zhuti1 {
+  width: 100%;
+  height: 10.7rem;
+  background: none;
+  position: relative;
+}
+.div section .zhuti1 .img3 {
+  width: 100%;
+  height: 10.7rem;
+  background: none;
+}
+.div section .zhuti1 .img1 {
+  width: auto;
+  height: 4rem;
+  background: none;
+  position: absolute;
+  top: 105px;
+  left: 18px;
+}
+.div section .zhuti2 {
+  width: 100%;
+  height: 6rem;
+  background: none;
+  border-bottom: 2px solid #898989;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.div section .zhuti2 .zhuti2_1 {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding-left: 76px;
+  padding-right: 76px;
+  box-sizing: border-box;
+  position: relative;
+}
+.div section .zhuti2 .zhuti2_1 img {
+  width: 13px;
+  height: auto;
+  background: none;
+  margin-top: 4px;
+}
+.div section .zhuti2 .zhuti2_1 span {
+  padding-left: 6px;
+  box-sizing: border-box;
+}
+.div section .zhuti2 .zhuti2_1 .span5 {
+  font-size: 14px;
+  color: #007AFF;
+  position: absolute;
+  top: 1px ;
+  right: 0px;
+}
+.div section .zhuti2 .zhuti2_2 {
+  margin-top: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.div section .zhuti3 {
+  width: 100%;
+  height: auto;
+  background: none;
+  padding-left: 9px;
+  padding-right: 9px ;
+  box-sizing: border-box;
+}
+.div section .zhuti3 h2 {
+  width: 100%;
+  height: 3rem;
+  background: none;
+  font-size: 16px;
+  line-height: 3rem;
+  border-bottom: 1px solid #BABEBF;
+}
+.div section .zhuti3 p {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: 3rem;
+  background: none;
+  line-height: 3rem;
+  border-bottom: 1px solid #BABEBF;
+  position: relative;
+}
+.div section .zhuti3 p .span6 img {
+  width: 1.1rem;
+  height: auto;
+  background: none;
+}
+.div section .zhuti3 p i {
+  padding-left: 22px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.div section .zhuti3 p b {
+  padding-left: 46px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.div section .zhuti3 p .span7 {
+  position: absolute;
+  top: 3px ;
+  right: 2px ;
+}
+.div section .zhuti3 p .span7 img {
+  width: 0.8rem;
+  height: auto;
+  background: none;
+}
+.div section .zhuti3 p .span8 {
+  position: absolute;
+  top: 2px ;
+  right: 26px ;
+}
+.div section .zhuti3 p .span8 img {
+  width: 1.8rem;
+  height: auto;
+  background: none;
+}

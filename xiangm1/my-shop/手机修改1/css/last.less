@@ -1,0 +1,112 @@
+@import url("reset.css");
+.box(@vau:horizontal){
+    display: -webkit-box;
+    -webkit-box-orient: @vau;
+}
+.full(@w,@h,@bg){
+    width: @w;
+    height: @h;
+    background: @bg;
+}
+html,body,.div{
+    .full(100%,100%,none);
+    
+}
+html{
+    font-size: 62.5%;
+}
+.div{
+     .box(vertical);
+    header{
+        .full(100%,3.5rem,#f7f7f7);
+        position: relative;
+        .span1{
+            position: absolute;
+            top: 8px;
+            left:10px ;
+            img{
+                .full(11px,16px,none)
+            }
+        }
+        h2{
+            text-align: center;
+            line-height: 3.5rem;
+            font-size: 18px;
+        }
+        .span2{
+             position: absolute;
+            top:8px ;
+            right:11px ;
+            img{
+                .full(18px,18px,none);
+            }
+        }
+    }
+      section{
+          border-top:2px solid #777777 ;
+        -webkit-box-flex: 1;
+        .box(vertical);
+        ul{
+            .full(100%,auto,none);
+           li{
+               .full(100%,3.4rem,none);
+               background: #f2f2f2;
+               padding-left: 10px;
+               padding-right: 10px;
+               box-sizing: border-box;
+               input{
+                   .full(100%,100%,none);
+                   outline: none;
+                   border: none;
+                   border-bottom: 1px solid #000000;
+//                 text-indent: 2em;
+               }
+           }  
+        }
+        .zhuti1{
+            position: relative;
+            input{
+               -webkit-box-flex: 1;
+                   outline: none;
+                   border: none;
+                   border-bottom: 1px solid #000000;
+                   .full(100%,3.4rem,none);
+                   text-indent: 1em;
+            }
+            span{
+                .full(69px,3.4rem,none);
+                display: block;
+                border: 1px solid #000000;
+                border-right: none;
+                border-bottom: none;
+                position: absolute;
+                top: 0;
+                right: 0;
+                font-weight: bold;
+                text-align: center;
+                line-height: 3.4rem;
+                
+            }
+        }
+        .zhuti2{
+            background: #f2f2f2;
+            padding-top: 18px;
+            -webkit-box-flex: 1;
+               padding-left: 10px;
+               padding-right: 10px;
+               box-sizing: border-box;
+             button{
+             .full(100%,3.5rem,#ff7d1b);
+             margin-top:13px ;
+             outline: none;
+             border: none;
+             border-radius: 5px;
+             
+          }
+          h2{
+              margin-top:7px ;
+          }
+        }
+        
+    }
+}

@@ -1,0 +1,81 @@
+@import url("reset.css");
+.box(@vau:horizontal){
+    display: -webkit-box;
+    -webkit-box-orient: @vau;
+}
+.full(@w,@h,@bg){
+    width: @w;
+    height: @h;
+    background: @bg;
+}
+html,body,.div{
+    .full(100%,100%,none);
+    
+}
+html{
+    font-size: 62.5%;
+}
+.div{
+    .box(vertical);
+    header{
+        .full(100%,3.5rem,#f7f7f7);
+        border-bottom: 2px solid #f2f2f2;
+        position: relative;
+        .span1{
+            position: absolute;
+            top: 8px;
+            left:10px ;
+            img{
+                .full(11px,16px,none)
+            }
+        }
+        h2{
+            text-align: center;
+            line-height: 3.5rem;
+            font-size: 18px;
+        }
+        .span2{
+             position: absolute;
+            top:8px ;
+            right:11px ;
+            img{
+                .full(18px,18px,none);
+            }
+        }
+    }
+    section{
+        -webkit-box-flex: 1;
+        .box(vertical);
+        .zhuti1{
+            .full(100%,21.6rem,none);
+            padding-left:10px ;
+            padding-right:10px ;
+            box-sizing: border-box;
+             border-top: 2px solid #555555;
+            h2{
+                .full(100%,3.4rem,none);
+                line-height:3.4rem ;
+                position: relative;
+               span{
+                  position: absolute;
+                  top:4px;
+                  right:0 ; 
+               }
+            }
+            p{
+                .full(100%,2.5rem,none);
+               
+                position: relative;
+               span{
+                  position: absolute;
+                  top:4px;
+                  right:0 ; 
+               }
+            }
+        }
+        .zhuti2{
+            -webkit-box-flex: 1;
+            background:#f7f7f7 ;
+        }
+    }
+}

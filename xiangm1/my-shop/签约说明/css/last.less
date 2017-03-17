@@ -1,0 +1,53 @@
+@import url("reset.css");
+.box(@vau:horizontal){
+    display: -webkit-box;
+    -webkit-box-orient: @vau;
+}
+.full(@w,@h,@bg){
+    width: @w;
+    height: @h;
+    background: @bg;
+}
+html,body,.div{
+    .full(100%,100%,none);
+    
+}
+html{
+    font-size: 62.5%;
+}
+.div{
+     .box(vertical);
+    header{
+        .full(100%,3.5rem,#f7f7f7);
+        border-bottom: 1px solid #555555;
+        position: relative;
+        .span1{
+            position: absolute;
+            top: 8px;
+            left:10px ;
+            img{
+                .full(11px,16px,none)
+            }
+        }
+        h2{
+            text-align: center;
+            line-height: 3.5rem;
+            font-size: 18px;
+        }
+     
+    }
+    section{
+        -webkit-box-flex: 1;
+        padding-top: 150px;
+        padding-left:11px ;
+        padding-right:11px ;
+        background: #f2f2f2;
+        button{
+            margin-top: 18px;
+            .full(100%,3.1rem,#ff7f1d);
+            outline: none;
+            border: none;
+            border-radius:5px ;
+        }
+    }
+}

@@ -1,0 +1,91 @@
+@import url("reset.css");
+.box(@vau:horizontal){
+    display: -webkit-box;
+    -webkit-box-orient: @vau;
+}
+.full(@w,@h,@bg){
+    width: @w;
+    height: @h;
+    background: @bg;
+}
+html,body,.div{
+    .full(100%,100%,none);
+    
+}
+html{
+    font-size: 62.5%;
+}
+.div{
+    .box(vertical);
+    header{
+        .full(100%,3.5rem,#f7f7f7);
+        border-bottom: 3px solid #f2f2f2;
+        position: relative;
+        .span1{
+            position: absolute;
+            top: 8px;
+            left:10px ;
+            img{
+                .full(11px,16px,none)
+            }
+        }
+        h2{
+            text-align: center;
+            line-height: 3.5rem;
+            font-size: 18px;
+        }
+        .span2{
+             position: absolute;
+            top:8px ;
+            right:11px ;
+            img{
+                .full(18px,18px,none);
+            }
+        }
+    }
+   
+   section{
+            -webkit-box-flex: 1;
+            .box(vertical);
+            
+            .zhuti1{
+                border-bottom: 1px solid #868890;
+                border-top: 1px solid #868890;
+              .full(100%,3.3rem,none);
+               padding-left:11px ;
+               padding-right:11px ;
+               box-sizing: border-box; 
+               p{
+                   line-height: 3.3rem;
+                   font-size: 14px;
+               }
+            }
+            .zhuti2{
+                .full(100%,3.3rem,#f2f2f2);
+                border-bottom: 1px solid #868890;
+               padding-left:11px ;
+               padding-right:11px ;
+               box-sizing: border-box;
+               h2{
+                   line-height: 3.3rem;
+                   font-size: 14px;
+               }
+            }
+          .zhuti3{
+            .full(100%,100%,#f2f2f2);
+             -webkit-box-flex: 1;
+            padding-left:11px ;
+            padding-right:11px ;
+            box-sizing: border-box;
+            button{
+                margin-top: 23px;
+                .full(100%,3.1rem,#ff7f1d);
+                font-size: 18px;
+               font-weight: bold; 
+               outline: none;
+               border: none;
+               border-radius:5px ;
+            }
+        }
+   }
+}

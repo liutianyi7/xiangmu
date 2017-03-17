@@ -1,0 +1,122 @@
+@import url("reset.css");
+.box(@vau:horizontal){
+    display: -webkit-box;
+    -webkit-box-orient: @vau;
+}
+.full(@w,@h,@bg){
+    width: @w;
+    height: @h;
+    background: @bg;
+}
+html,body,.div{
+    .full(100%,100%,none);
+    
+}
+html{
+    font-size: 62.5%;
+}
+.div{
+    .box(vertical);
+    header{
+        .full(100%,3.5rem,#f7f7f7);
+        border-bottom: 3px solid #f2f2f2;
+        position: relative;
+        .span1{
+            position: absolute;
+            top: 8px;
+            left:10px ;
+            img{
+                .full(11px,16px,none)
+            }
+        }
+        h2{
+            text-align: center;
+            line-height: 3.5rem;
+            font-size: 18px;
+        }
+        .span2{
+             position: absolute;
+            top:8px ;
+            right:11px ;
+            img{
+                .full(18px,18px,none);
+            }
+        }
+    }
+    section{
+        -webkit-box-flex: 1;
+        .box(vertical);
+        .zhuti1{
+            border-top:5px solid #A9A9A9 ;
+            padding-left:11px ;
+            padding-right: 11px;
+            box-sizing: border-box;
+            p{
+                margin-top: 8px;
+                font-size: 14px;
+            }
+        }
+        .zhuti2{
+            .full(100%,11.7rem,none);
+            margin-top: 9px;
+            border-top:5px solid #A9A9A9 ;
+           
+            .zhuti2_1{
+                .full(100%,2.9rem,none);
+                 padding-left:11px ;
+            padding-right: 11px;
+            box-sizing: border-box;
+                p{
+                    .full(100%,2.9rem,none);
+                    line-height: 2.9rem;
+                }
+            }
+            .zhuti2_2{
+                
+                .full(100%,auto,none);
+                border-top:1px solid #5E5E5E ;
+              padding-left:11px ;
+            padding-right: 11px;
+            box-sizing: border-box;
+                p{
+                    .box(horizontal);
+                    padding-top: 8px;
+                    .full(100%,auto,none);
+                    line-height: 2.9rem;
+                    position: relative;
+                    img{
+                        .full(2.5rem,auto,none);
+                    }
+                    span{
+                        padding-left: 6px;
+                        box-sizing: border-box;
+                        display: block;
+                        line-height: 2.6rem;
+                    }
+                    .img1{
+                        position: absolute;
+                        top: 8px;
+                        right: 0;
+                    }
+                }
+            }
+        }
+        
+           .zhuti3{
+            .full(100%,100%,#f2f2f2);
+             -webkit-box-flex: 1;
+            padding-left:11px ;
+            padding-right:11px ;
+            box-sizing: border-box;
+            button{
+                margin-top: 23px;
+                .full(100%,3.1rem,#ff7f1d);
+                font-size: 18px;
+               font-weight: bold; 
+               outline: none;
+               border: none;
+               border-radius:5px ;
+            }
+        }
+    }
+}

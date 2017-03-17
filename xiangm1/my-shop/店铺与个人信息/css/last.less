@@ -1,0 +1,149 @@
+@import url("reset.css");
+.box(@vau:horizontal){
+    display: -webkit-box;
+    -webkit-box-orient: @vau;
+}
+.full(@w,@h,@bg){
+    width: @w;
+    height: @h;
+    background: @bg;
+}
+html,body,.div{
+    .full(100%,100%,none);
+    
+}
+html{
+    font-size: 62.5%;
+}
+.div{
+     .box(vertical);
+    header{
+        .full(100%,3.5rem,#f7f7f7);
+        position: relative;
+        .span1{
+            position: absolute;
+            top: 8px;
+            left:10px ;
+            img{
+                .full(11px,16px,none)
+            }
+        }
+        h2{
+            text-align: center;
+            line-height: 3.5rem;
+            font-size: 18px;
+        }
+        .span2{
+             position: absolute;
+            top:8px ;
+            right:11px ;
+            img{
+                .full(18px,18px,none);
+            }
+        }
+    }
+    section{
+        .box(vertical);
+        -webkit-box-flex: 1;
+        .zhuti1{
+            .full(100%,10.7rem,none);
+            position: relative;
+            .img3{
+                .full(100%,10.7rem,none);
+            }
+          .img1{
+            .full(auto,4rem,none);
+            position: absolute;
+             top: 105px;
+            left: 18px;
+          }
+        }
+        .zhuti2{
+            .full(100%,6rem,none);
+            border-bottom: 2px solid #898989;
+            .box(vertical);
+            .zhuti2_1{
+                .box(horizontal);
+                padding-left: 76px;
+                padding-right: 76px;
+                box-sizing: border-box;
+                position: relative;
+                img{
+                    .full(13px,auto,none);
+                    margin-top: 4px;
+                }
+                span{
+                    padding-left: 6px;
+                    box-sizing: border-box;
+                }
+                .span5{
+                    font-size: 14px;
+                    color: #007AFF;
+                    position: absolute;
+                    top:1px ;
+                    right: 0px;
+                }
+            }
+            .zhuti2_2{
+                margin-top: 4px;
+                padding-left: 8px;
+                padding-right: 8px;
+            }
+        }
+        .zhuti3{
+            .full(100%,auto,none);
+            padding-left: 9px;
+            padding-right:9px ;
+            box-sizing: border-box;
+            h2{
+                .full(100%,3rem,none);
+                font-size: 16px;
+                line-height: 3rem;
+                border-bottom: 1px solid #BABEBF;
+            }
+            p{
+                .box(horizontal);
+                .full(100%,3rem,none);
+                 line-height: 3rem;
+                border-bottom: 1px solid #BABEBF;
+                
+                position: relative;
+                .span6{
+//                  display:inline-block;
+//                  position: absolute;
+//                  top: ;
+//                  left: ;
+                    img{
+                        .full(1.1rem,auto,none);
+                    }
+                }
+                i{
+                    padding-left: 22px;
+                    box-sizing: border-box;
+                    font-size: 14px;
+                }
+                b{
+                    padding-left: 46px;
+                    box-sizing: border-box;
+                    font-size: 14px;
+                }
+                .span7{
+                    position: absolute;
+                    top:3px ;
+                    right:2px ;
+                    img{
+                        .full(0.8rem,auto,none);
+                    }
+                }
+                .span8{
+                    position: absolute;
+                    top:2px ;
+                    right:26px ;
+                    img{
+                        .full(1.8rem,auto,none);
+                    }
+                }
+            }
+        }
+    }
+}

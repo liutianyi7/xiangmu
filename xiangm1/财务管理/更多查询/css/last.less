@@ -1,0 +1,116 @@
+@import url("reset.css");
+.box(@vau:horizontal){
+    display: -webkit-box;
+    -webkit-box-orient: @vau;
+}
+.full(@w,@h,@bg){
+    width: @w;
+    height: @h;
+    background: @bg;
+}
+html,body,.div{
+    .full(100%,100%,none);
+    
+}
+html{
+    font-size: 62.5%;
+}
+.div{
+     .box(vertical);
+    header{
+        .full(100%,3.5rem,#f7f7f7);
+        border-bottom: 1px solid #285E8E;
+        position: relative;
+        .span1{
+            position: absolute;
+            top: 8px;
+            left:10px ;
+            img{
+                .full(11px,16px,none)
+            }
+        }
+        h2{
+            text-align: center;
+            line-height: 3.5rem;
+            font-size: 18px;
+        }
+        .span2{
+             position: absolute;
+            top:8px ;
+            right:11px ;
+            img{
+                .full(18px,18px,none);
+            }
+        }
+    }
+    nav{
+        
+//      border-bottom: 2px solid #4A4A4A;
+        .full(100%,auto,none);
+       
+        ul{
+            margin-top: 2px;
+            margin-bottom: 2px;
+            .full(100%,3.3rem,none);
+           .box(horizontal); 
+           text-align: center;
+           li{
+               -webkit-box-flex: 1;
+               line-height: 3.5rem;
+               
+               border-right:1px solid #616161 ;
+               img{
+                   .full(1.1rem,auto,none);
+                   padding-left: 3px;
+                   box-sizing: border-box;
+               }
+           }
+           .li1{
+               border: none;
+           }
+           .li2{
+//             padding-bottom: 2px;
+               color: #D58512;
+               border-bottom: 1px solid #D58512;
+           }
+        }
+    }
+    section{
+        .box(vertical);
+        -webkit-box-flex: 1;
+        .zhuti1{
+            .full(100%,5.6rem,none);
+            border-top:3px solid #f2f2f2 ;
+            padding-left:11px ;
+            padding-right:11px ;
+            box-sizing: border-box;
+            .zhuti1_1{
+                .box(horizontal);
+                position: relative;
+                .left{
+                    position: absolute;
+                    top: 7px;
+                    left: 0;
+                    p{
+                        margin-top: 5px;
+                    }
+                }
+                .right{
+                    position: absolute;
+                    top:7px ;
+                    right:0 ;
+                    p{
+                        margin-top: 5px;
+                    }
+                   .span1{
+                    position: absolute;
+                    top:24px ;
+                    right:0 ;
+                   }
+                }
+            }
+        }
+        
+    }
+    
+}

@@ -1,0 +1,121 @@
+@import url("reset.css");
+html,
+body,
+.div {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+html {
+  font-size: 62.5%;
+}
+.div {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.div header {
+  width: 100%;
+  height: 3.5rem;
+  background: #f7f7f7;
+  border-bottom: 1px solid #285E8E;
+  position: relative;
+}
+.div header .span1 {
+  position: absolute;
+  top: 8px;
+  left: 10px ;
+}
+.div header .span1 img {
+  width: 11px;
+  height: 16px;
+  background: none;
+}
+.div header h2 {
+  text-align: center;
+  line-height: 3.5rem;
+  font-size: 18px;
+}
+.div header .span2 {
+  position: absolute;
+  top: 8px ;
+  right: 11px ;
+}
+.div header .span2 img {
+  width: 18px;
+  height: 18px;
+  background: none;
+}
+.div nav {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.div nav ul {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  width: 100%;
+  height: 3.3rem;
+  background: none;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  text-align: center;
+}
+.div nav ul li {
+  -webkit-box-flex: 1;
+  line-height: 3.5rem;
+  border-right: 1px solid #616161 ;
+}
+.div nav ul li img {
+  width: 1.1rem;
+  height: auto;
+  background: none;
+  padding-left: 3px;
+  box-sizing: border-box;
+}
+.div nav ul .li1 {
+  border: none;
+}
+.div nav ul .li2 {
+  color: #D58512;
+  border-bottom: 1px solid #D58512;
+}
+.div section {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-flex: 1;
+}
+.div section .zhuti1 {
+  width: 100%;
+  height: 5.6rem;
+  background: none;
+  border-top: 3px solid #f2f2f2 ;
+  padding-left: 11px ;
+  padding-right: 11px ;
+  box-sizing: border-box;
+}
+.div section .zhuti1 .zhuti1_1 {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  position: relative;
+}
+.div section .zhuti1 .zhuti1_1 .left {
+  position: absolute;
+  top: 7px;
+  left: 0;
+}
+.div section .zhuti1 .zhuti1_1 .left p {
+  margin-top: 5px;
+}
+.div section .zhuti1 .zhuti1_1 .right {
+  position: absolute;
+  top: 7px ;
+  right: 0 ;
+}
+.div section .zhuti1 .zhuti1_1 .right p {
+  margin-top: 5px;
+}
+.div section .zhuti1 .zhuti1_1 .right .span1 {
+  position: absolute;
+  top: 24px ;
+  right: 0 ;
+}

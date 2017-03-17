@@ -1,0 +1,201 @@
+@import url("reset.css");
+html,
+body,
+.div {
+  width: 100%;
+  height: 100%;
+  background: none;
+}
+html {
+  font-size: 62.5%;
+}
+.div {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.div header {
+  width: 100%;
+  height: 3.5rem;
+  background: #ff7f1d;
+  position: relative;
+}
+.div header .span1 {
+  position: absolute;
+  top: 8px;
+  left: 10px ;
+}
+.div header .span1 img {
+  width: 11px;
+  height: 16px;
+  background: none;
+}
+.div header h2 {
+  text-align: center;
+  line-height: 3.5rem;
+  font-size: 18px;
+}
+.div header .span2 {
+  position: absolute;
+  top: 8px ;
+  right: 11px ;
+}
+.div header .span2 img {
+  width: 18px;
+  height: 18px;
+  background: none;
+}
+.div section {
+  overflow-y: auto;
+  -webkit-box-flex: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.div section::-webkit-scrollbar {
+  width: 0;
+}
+.div section .zhuti1 {
+  width: 100%;
+  height: 17rem;
+  background: none;
+  position: relative;
+}
+.div section .zhuti1 .span1 {
+  display: block;
+  width: 5rem;
+  height: 2rem;
+  background: none;
+  position: absolute;
+  top: 12px ;
+  right: 14px ;
+  border: 1px solid #ff7f1d;
+  border-radius: 5px ;
+  text-align: center;
+  line-height: 2rem;
+  color: #ff7f1d ;
+}
+.div section .zhuti1 .p1 {
+  margin-top: 37px;
+  font-size: 14px;
+  text-align: center;
+}
+.div section .zhuti1 .p2 {
+  margin-top: 8px;
+  text-align: center;
+  color: #ff7f1d;
+}
+.div section .zhuti1 .p3 {
+  text-align: center;
+  margin-top: 6px;
+}
+.div section .zhuti1 .span2 {
+  display: block;
+  width: 68px;
+  height: 26px;
+  background: #ff7f1d;
+  position: absolute;
+  top: 132px ;
+  left: 66px ;
+  color: white;
+  border: 1px solid #ff7f1d;
+  border-radius: 5px ;
+  text-align: center;
+  line-height: 26px;
+}
+.div section .zhuti1 .span3 {
+  display: block;
+  width: 68px;
+  height: 26px;
+  background: none;
+  position: absolute;
+  top: 132px ;
+  right: 66px ;
+  color: #ff7f1d;
+  border: 1px solid #ff7f1d;
+  border-radius: 5px ;
+  text-align: center;
+  line-height: 26px;
+}
+.div section .zhuti2 {
+  width: 100%;
+  height: 3.3rem;
+  background: none;
+  border-bottom: 3px solid #f2f2f2;
+  border-top: 3px solid #f2f2f2;
+  position: relative;
+}
+.div section .zhuti2 .span1 {
+  position: absolute;
+  top: 12px;
+  left: 10px ;
+}
+.div section .zhuti2 .span1 img {
+  width: 13px;
+  height: 13px;
+  background: none;
+}
+.div section .zhuti2 h2 {
+  padding-left: 30px;
+  box-sizing: border-box;
+  line-height: 3.5rem;
+  font-size: 16px;
+  font-weight: bold ;
+}
+.div section .zhuti2 .span2 {
+  position: absolute;
+  top: 12px ;
+  right: 11px ;
+}
+.div section .zhuti2 .span2 img {
+  width: 6px;
+  height: 12px;
+  background: none;
+}
+.div section .zhuti3 {
+  width: 100%;
+  height: 26px;
+  background: none;
+  padding-left: 9px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: bold;
+}
+.div section .zhuti3 h2 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 26px;
+}
+.div section .zhuti4 {
+  width: 100%;
+  height: 5.6rem;
+  background: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  border-top: 1px solid #f1f1f1;
+}
+.div section .zhuti4 .zhuti4_1 {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  position: relative;
+}
+.div section .zhuti4 .zhuti4_1 .left {
+  position: absolute;
+  top: 7px;
+  left: 0;
+}
+.div section .zhuti4 .zhuti4_1 .left p {
+  margin-top: 5px;
+}
+.div section .zhuti4 .zhuti4_1 .right {
+  position: absolute;
+  top: 7px ;
+  right: 0 ;
+}
+.div section .zhuti4 .zhuti4_1 .right p {
+  margin-top: 5px;
+}
+.div section .zhuti4 .zhuti4_1 .right .span5 {
+  position: absolute;
+  top: 24px ;
+  right: 0 ;
+}
