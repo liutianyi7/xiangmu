@@ -1,0 +1,87 @@
+@import url(reset.css);
+
+
+//封装宽，高，背景
+.whb(@w,@h,@b){
+    width: @w;
+    height: @h;
+    background: @b;
+}
+
+
+//封装弹性盒
+.box(@res:vertical){
+    display: -webkit-box;
+    -webkit-box-orient: @res;
+}
+
+
+.serve{
+	.whb(100%,100%,#f2f2f2);
+	.box();
+	
+	
+	header{
+		.whb(100%,3.5rem,#f2f2f2);
+		border-bottom: 1px solid darkgray;
+		.head{
+			.box(horizontal);
+			
+			.left{
+				position: relative;
+				img{
+					.whb(0.7rem,auto,none);
+					position: absolute;
+					left: 1rem;
+					top:1.1rem;
+			   }
+			}
+			.right{
+			     .whb(100%,4rem,none);
+				  font-size: 14px;
+		           font-weight: bold;
+		           color: black;
+		           text-align: center;
+		           line-height: 3.5rem;
+			
+			}
+			
+		}
+	}
+	
+	
+	
+	section{
+		-webkit-box-flex: 1;
+		
+		ul li{
+          		line-height: 3rem;
+          		padding-left: 1rem;
+          		box-sizing: border-box;
+          		border-bottom: 0.1rem solid gainsboro;
+          		
+          		img{
+          			.whb(0.7rem,auto,none);
+          			float: right;
+          			margin-right: 1rem;
+          			margin-top: 1rem;
+          		}
+          	}
+//        	ul li{
+//        		   padding: 0.3rem 0 0.3rem 1.5rem;
+//        			border-bottom: 0.1rem solid gainsboro;
+//        	}
+          	ul{
+          		background-color: white;
+          		margin-bottom: 1rem;
+          	}
+          	
+	}
+	
+	
+	
+	
+	footer{
+		
+	}
+}

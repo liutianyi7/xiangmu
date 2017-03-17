@@ -1,0 +1,64 @@
+@import url(reset.css);
+.couple-back {
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.couple-back header {
+  width: 100%;
+  height: 3.5rem;
+  background: #f2f2f2;
+  border-bottom: 1px solid darkgray;
+}
+.couple-back header .head {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.couple-back header .head .left {
+  position: relative;
+}
+.couple-back header .head .left img {
+  width: 0.7rem;
+  height: auto;
+  background: none;
+  position: absolute;
+  left: 1rem;
+  top: 1.2rem;
+}
+.couple-back header .head .right {
+  width: 100%;
+  height: 4rem;
+  background: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  line-height: 3.5rem;
+}
+.couple-back section {
+  -webkit-box-flex: 1;
+  background-color: white;
+}
+.couple-back section .img {
+  text-align: center;
+  margin-top: 5rem;
+}
+.couple-back section .img img {
+  width: 10rem;
+  height: auto;
+  background: none;
+}
+.couple-back section .tit h3 {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 16px;
+  font-weight: bold;
+}
+.couple-back section .tit p {
+  text-align: center;
+  color: #A9A9A9;
+  padding: 0.5rem 1rem;
+  box-sizing: border-box;
+}

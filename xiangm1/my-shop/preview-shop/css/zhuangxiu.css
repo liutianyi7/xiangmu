@@ -1,0 +1,99 @@
+@import url(reset.css);
+.zhuangxiu {
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.zhuangxiu header {
+  width: 100%;
+  height: 3.5rem;
+  background: #f7f7f7;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 0.1rem solid #cacaca;
+  position: relative;
+}
+.zhuangxiu header .left {
+  width: 1rem;
+  height: auto;
+  background: none;
+  text-align: center;
+  line-height: 3.5rem;
+  padding-left: 0.5rem;
+  padding-top: 0.3rem;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0.5rem;
+}
+.zhuangxiu header .left img {
+  width: 0.8rem;
+  height: auto;
+  background: none;
+}
+.zhuangxiu header .right {
+  width: auto;
+  height: 3.5rem;
+  background: none;
+  text-align: center;
+  line-height: 3.5rem;
+  padding-right: 0.5rem;
+  font-size: 1.4rem;
+  box-sizing: border-box;
+  position: absolute;
+  right: 0.5rem;
+}
+.zhuangxiu header .right a {
+  padding-left: 0.5rem;
+}
+.zhuangxiu header .center {
+  text-align: center;
+  line-height: 3.5rem;
+  width: 100%;
+  height: auto;
+  background: none;
+  font-size: 1.4rem;
+}
+.zhuangxiu section {
+  -webkit-box-flex: 1;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.zhuangxiu section::-webkit-scrollbar {
+  width: 0;
+}
+.zhuangxiu section .bgimg {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  margin-top: 0.5rem;
+}
+.zhuangxiu section .bgimg .title h3 {
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+.zhuangxiu section .bgimg img {
+  width: 135%;
+  height: auto;
+  background: none;
+}
+.zhuangxiu section .lunbo {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  margin-top: 0.5rem;
+}
+.zhuangxiu section .lunbo .title h3 {
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+.zhuangxiu section .lunbo img {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.zhuangxiu section .lunbo h3 {
+  padding-left: 0.2rem;
+  box-sizing: border-box;
+}

@@ -1,0 +1,99 @@
+@import url(reset.css);
+.genghuan {
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.genghuan header {
+  width: 100%;
+  height: 3.5rem;
+  background: #f7f7f7;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 0.1rem solid #cacaca;
+  position: relative;
+}
+.genghuan header .left {
+  width: 1rem;
+  height: auto;
+  background: none;
+  text-align: center;
+  line-height: 3.5rem;
+  padding-left: 0.5rem;
+  padding-top: 0.3rem;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0.5rem;
+}
+.genghuan header .left img {
+  width: 0.8rem;
+  height: auto;
+  background: none;
+}
+.genghuan header .right {
+  width: auto;
+  height: 3.5rem;
+  background: none;
+  text-align: center;
+  line-height: 3.5rem;
+  padding-right: 0.5rem;
+  font-size: 1.4rem;
+  box-sizing: border-box;
+  position: absolute;
+  right: 0.5rem;
+}
+.genghuan header .right a {
+  padding-left: 0.5rem;
+}
+.genghuan header .center {
+  text-align: center;
+  line-height: 3.5rem;
+  width: 100%;
+  height: auto;
+  background: none;
+  font-size: 1.4rem;
+}
+.genghuan section {
+  -webkit-box-flex: 1;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.genghuan section::-webkit-scrollbar {
+  width: 0;
+}
+.genghuan section .bgimg {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  margin-top: 0.5rem;
+}
+.genghuan section .bgimg .title h3 {
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+.genghuan section .bgimg img {
+  width: 135%;
+  height: auto;
+  background: none;
+}
+.genghuan section .lunbo {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  margin-top: 0.5rem;
+}
+.genghuan section .lunbo .title h3 {
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+.genghuan section .lunbo img {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.genghuan section .lunbo h3 {
+  padding-left: 0.2rem;
+  box-sizing: border-box;
+}

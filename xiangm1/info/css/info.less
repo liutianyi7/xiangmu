@@ -1,0 +1,177 @@
+@import url(reset.css);
+
+
+//封装宽，高，背景
+.whb(@w,@h,@b){
+    width: @w;
+    height: @h;
+    background: @b;
+}
+
+
+//封装弹性盒
+.box(@res:vertical){
+    display: -webkit-box;
+    -webkit-box-orient: @res;
+}
+
+
+.info{
+	.whb(100%,100%,#f2f2f2);
+	.box();
+	
+	
+	header{
+		.whb(100%,3.5rem,#f7f7f7);
+		border-bottom: 1px solid darkgray;
+		.head{
+			.box(horizontal);
+			
+			.left{
+				position: relative;
+				img{
+					.whb(0.7rem,auto,none);
+					position: absolute;
+					left: 1rem;
+					top:1.1rem;
+			   }
+			}
+			.right{
+			     .whb(100%,4rem,none);
+				  font-size: 14px;
+		           font-weight: bold;
+		           color: black;
+		           text-align: center;
+		           line-height: 3.5rem;
+			
+			}
+			
+		}
+	}//header
+	
+	
+	
+	section{
+		-webkit-box-flex: 1;
+		
+		
+		.inform{
+			.whb(100%,6rem,none);
+			.box(horizontal);
+			position: relative;
+			border-bottom: 0.1rem solid darkgray;
+			.left{
+				
+				dl{
+//					.whb(auto,auto,white);
+					-webkit-box-flex: 1;
+//					.box(horizontal);
+					
+					dt{
+						.whb(6rem,auto,none);
+						padding: 1rem;
+						box-sizing: border-box;
+						float: left;
+						img{
+							.whb(3.5rem,auto,none);
+						}
+					}
+					dd{
+						float: left;
+					   padding-top: 1rem;
+					   box-sizing: border-box;
+					   h2{
+					   	font-size: 16px;
+		//			   	font-weight:bold;
+					   }
+					   p{
+					   	color:lightgray;
+					   	padding-top: 0.1rem;
+					   	box-sizing: border-box;
+					   }
+					   a{
+					   	float: right;
+					   }
+					}
+				}
+			}//left
+			
+			.right{
+				.whb(6rem,auto,none);
+				position: absolute;
+				top: 0;
+				right:0 ;
+				a{
+					display: block;
+					text-align: center;
+					line-height: 6rem;
+				}
+			}
+		}//inform
+		
+		
+		
+		.inform2{
+			.whb(100%,6rem,none);
+			.box(horizontal);
+			position: relative;
+			.left{
+				
+				dl{
+//					.whb(auto,auto,white);
+					-webkit-box-flex: 1;
+//					.box(horizontal);
+//					border-bottom: 0.1rem solid darkgray;
+					dt{
+						.whb(6rem,auto,none);
+						padding: 1rem;
+						box-sizing: border-box;
+						float: left;
+						img{
+							.whb(3.5rem,auto,none);
+						}
+					}
+					dd{
+						float: left;
+					   padding-top: 1rem;
+					   box-sizing: border-box;
+					   h2{
+					   	font-size: 16px;
+		//			   	font-weight:bold;
+					   }
+					   p{
+					   	color:lightgray;
+					   	padding-top: 0.1rem;
+					   	box-sizing: border-box;
+					   }
+					   a{
+					   	float: right;
+					   }
+					}
+				}
+			}//left
+			
+			.right{
+				.whb(6rem,auto,none);
+				position: absolute;
+				top: 0;
+				right:0 ;
+				a{
+					display: block;
+					text-align: center;
+					line-height: 6rem;
+				}
+			}
+		}//inform2
+		
+		
+		
+	}
+	
+	
+	
+	
+	footer{
+		
+	}
+}

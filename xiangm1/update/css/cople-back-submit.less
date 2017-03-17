@@ -1,0 +1,84 @@
+@import url(reset.css);
+
+
+//封装宽，高，背景
+.whb(@w,@h,@b){
+    width: @w;
+    height: @h;
+    background: @b;
+}
+
+
+//封装弹性盒
+.box(@res:vertical){
+    display: -webkit-box;
+    -webkit-box-orient: @res;
+}
+
+
+.sub{
+	.whb(100%,100%,#f2f2f2);
+	.box();
+	
+	
+	header{
+		.whb(100%,3.5rem,#f2f2f2);
+		border-bottom: 1px solid darkgray;
+		.head{
+			.box(horizontal);
+			
+			.left{
+				position: relative;
+				img{
+					.whb(0.7rem,auto,none);
+					position: absolute;
+					left: 1rem;
+					top:1.2rem;
+			   }
+			}
+			.right{
+			     .whb(100%,4rem,none);
+				  font-size: 14px;
+		           font-weight: bold;
+		           color: black;
+		           text-align: center;
+		           line-height: 3.5rem;
+			
+			}
+			
+		}
+	}
+	
+	
+	section{
+		-webkit-box-flex:1;
+		padding:0px 10px;
+	    box-sizing: border-box;
+	    background-color: #f2f2f2;
+		.title h2{
+	    	padding: 5px 5px;
+	    	box-sizing: border-box;
+	    }
+	    
+	    .input textarea{
+	    	.whb(100%,150px,white);
+	    	border-radius: 5px;
+	    	outline:none;
+	    }
+	    
+	    .submit{
+	    	.whb(100%,auto,#ff7f1e);
+	    	border-radius: 5px;
+	    	text-align: center;
+	    	font-size: 14px;
+	    	color: white;
+	    }
+	}
+	
+	
+	
+	footer{
+		
+	}
+	
+}

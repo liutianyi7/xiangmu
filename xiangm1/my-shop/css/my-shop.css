@@ -1,0 +1,324 @@
+@import url(reset.css);
+.myshop {
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.myshop header {
+  width: 100%;
+  height: 3.5rem;
+  background: #f7f7f7;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 1px solid #cacaca;
+}
+.myshop header .left {
+  width: 4rem;
+  height: 4rem;
+  background: none;
+  text-align: center;
+  line-height: 3.5rem;
+  padding-left: 0.5rem;
+  padding-top: 0.3rem;
+  box-sizing: border-box;
+}
+.myshop header .left img {
+  width: 0.8rem;
+  height: auto;
+  background: none;
+}
+.myshop header .center {
+  text-align: center;
+  line-height: 3.5rem;
+  -webkit-box-flex: 1;
+  font-size: 1.4rem;
+}
+.myshop header .right {
+  width: 4rem;
+  height: 4rem;
+  background: none;
+  text-align: center;
+  line-height: 3.5rem;
+  padding-left: 0.5rem;
+  padding-top: 0.3rem;
+  box-sizing: border-box;
+}
+.myshop header .right img {
+  width: 1.5rem;
+  height: auto;
+  background: none;
+}
+.myshop section {
+  -webkit-box-flex: 1;
+  overflow-y: auto;
+}
+.myshop section::-webkit-scrollbar {
+  width: 0;
+}
+.myshop section .one {
+  margin: 1rem 0;
+}
+.myshop section .one .info1 {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  position: relative;
+  padding: 0 0 0 1rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid gainsboro;
+}
+.myshop section .one .info1 dl {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+.myshop section .one .info1 dl dt img {
+  width: 2rem;
+  height: auto;
+  background: none;
+}
+.myshop section .one .info1 dl dd {
+  padding-top: 0.2rem;
+  padding-left: 0.5rem;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.myshop section .one .info1 span {
+  position: absolute;
+  right: 0.5rem;
+  top: 1rem;
+}
+.myshop section .one .info1 span img {
+  width: 0.8rem;
+  height: auto;
+  background: none;
+}
+.myshop section .one .info2 {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  position: relative;
+  padding: 0 0 0 1rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid gainsboro;
+}
+.myshop section .one .info2 dl {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+.myshop section .one .info2 dl dt img {
+  width: 2rem;
+  height: auto;
+  background: none;
+}
+.myshop section .one .info2 dl dd {
+  padding-top: 0.2rem;
+  padding-left: 0.5rem;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.myshop section .one .info2 span {
+  position: absolute;
+  right: 0.5rem;
+  top: 1rem;
+}
+.myshop section .one .info2 span img {
+  width: 0.8rem;
+  height: auto;
+  background: none;
+}
+.myshop section .two .info1 {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  position: relative;
+  padding: 0 0 0 1rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid gainsboro;
+}
+.myshop section .two .info1 dl {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+.myshop section .two .info1 dl dt img {
+  width: 2rem;
+  height: auto;
+  background: none;
+}
+.myshop section .two .info1 dl dd {
+  padding-top: 0.2rem;
+  padding-left: 0.5rem;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.myshop section .two .info1 span {
+  position: absolute;
+  right: 0.5rem;
+  top: 1rem;
+}
+.myshop section .two .info1 span img {
+  width: 0.8rem;
+  height: auto;
+  background: none;
+}
+.myshop section .two .info2 {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  position: relative;
+  padding: 0 0 0 1rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid gainsboro;
+}
+.myshop section .two .info2 dl {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+.myshop section .two .info2 dl dt img {
+  width: 2rem;
+  height: auto;
+  background: none;
+}
+.myshop section .two .info2 dl dd {
+  padding-top: 0.2rem;
+  padding-left: 0.5rem;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.myshop section .two .info2 span {
+  position: absolute;
+  right: 0.5rem;
+  top: 1rem;
+}
+.myshop section .two .info2 span img {
+  width: 0.8rem;
+  height: auto;
+  background: none;
+}
+.myshop section .three {
+  margin: 1rem 0;
+}
+.myshop section .three .info1 {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  position: relative;
+  padding: 0 0 0 1rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid gainsboro;
+}
+.myshop section .three .info1 dl {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+.myshop section .three .info1 dl dt img {
+  width: 2rem;
+  height: auto;
+  background: none;
+}
+.myshop section .three .info1 dl dd {
+  padding-top: 0.2rem;
+  padding-left: 0.5rem;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.myshop section .three .info1 span {
+  position: absolute;
+  right: 0.5rem;
+  top: 1rem;
+}
+.myshop section .three .info1 span img {
+  width: 0.8rem;
+  height: auto;
+  background: none;
+}
+.myshop section .three .info2 {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  position: relative;
+  padding: 0 0 0 1rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid gainsboro;
+}
+.myshop section .three .info2 dl {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+.myshop section .three .info2 dl dt img {
+  width: 2rem;
+  height: auto;
+  background: none;
+}
+.myshop section .three .info2 dl dd {
+  padding-top: 0.2rem;
+  padding-left: 0.5rem;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.myshop section .three .info2 span {
+  position: absolute;
+  right: 0.5rem;
+  top: 1rem;
+}
+.myshop section .three .info2 span img {
+  width: 0.8rem;
+  height: auto;
+  background: none;
+}
+.myshop footer {
+  width: 100%;
+  height: 45px;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.myshop footer dl {
+  -webkit-box-flex: 1;
+  text-align: center;
+  width: 0;
+}
+.myshop footer dl dt {
+  width: auto;
+  height: 20px;
+  background: none;
+  padding-top: 5px;
+}
+.myshop footer dl dt img {
+  width: 20px;
+  height: auto;
+  background: none;
+}
+.myshop footer dl dd {
+  padding-top: 2px;
+}
+.myshop footer dl .three img {
+  width: auto;
+  height: 35px;
+  background: none;
+}
